@@ -5,24 +5,28 @@
  * Inserter: no
  */
 ?>
-<!-- wp:spacer {"height":"var(--wp--preset--spacing--30)"} -->
-<div style="height:var(--wp--preset--spacing--30)" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
-
-<!-- wp:heading {"level":1,"align":"wide"} -->
-<h1 class="alignwide"><?php echo esc_html_x( '404', 'Error code for a webpage that is not found.', 'silence' ); ?></h1>
-<!-- /wp:heading -->
-
-<!-- wp:group {"align":"wide","layout":{"type":"default"},"style":{"spacing":{"margin":{"top":"5px"}}}} -->
-<div class="wp-block-group alignwide" style="margin-top:5px">
-	<!-- wp:paragraph -->
-	<p><?php echo esc_html_x( 'This page could not be found.', 'Message to convey that a webpage could not be found', 'silence' ); ?></p>
-	<!-- /wp:paragraph -->
-
-	<!-- wp:search {"label":"<?php echo esc_html_x( 'Search', 'label', 'silence' ); ?>","placeholder":"<?php echo esc_attr_x( 'Search...', 'placeholder for search field', 'silence' ); ?>","showLabel":false,"width":100,"widthUnit":"%","buttonText":"<?php esc_attr_e( 'Search', 'silence' ); ?>","buttonUseIcon":true,"align":"center"} /-->
+<!-- wp:group {"align":"wide","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide" style="margin-bottom:var(--wp--preset--spacing--50)">
+	<!-- wp:heading {"level":1,"align":"wide","fontSize":"xxxxx-large"} -->
+	<h1 class="wp-block-heading alignwide has-xxxxx-large-font-size"><?php echo esc_html_x( '404', 'Error code for a webpage that is not found.', 'silence' ); ?></h1>
+	<!-- /wp:heading -->
 </div>
 <!-- /wp:group -->
 
-<!-- wp:spacer {"height":"var(--wp--preset--spacing--70)"} -->
-<div style="height:var(--wp--preset--spacing--70)" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
+<!-- wp:group {"align":"wide","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide" style="margin-bottom:var(--wp--preset--spacing--50)">
+	<!-- wp:separator {"className":"is-style-wide"} -->
+	<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide"/>
+	<!-- /wp:separator -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"wide","style":{"spacing":{"margin":{"top":"0"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide" style="margin-top:0">
+	<!-- wp:paragraph {"textColor":"contrast-75"} -->
+	<p class="has-contrast-75-color has-text-color"><?php echo esc_html_x( 'This page could not be found.', 'Message to convey that a webpage could not be found', 'silence' ); ?></p>
+	<!-- /wp:paragraph -->
+
+	<!-- wp:search {"label":"<?php echo esc_html_x( 'Search', 'label', 'silence' ); ?>","placeholder":"<?php echo esc_attr_x( 'Search...', 'placeholder for search field', 'silence' ); ?>","showLabel":false,"width":100,"widthUnit":"%","buttonText":"<?php esc_attr_e( 'Search', 'silence' ); ?>"} /-->
+</div>
+<!-- /wp:group -->

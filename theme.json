@@ -892,7 +892,7 @@
 						}
 					}
 				},
-				"css": "& figcaption {\n\ttext-align: center;\n\t}"
+				"css": "& figcaption {\n\ttext-align: center;\n\t}\n&.alignfull img {\n\tborder-radius: 0;\n\t}"
 			}
 		},
 		"color": {
