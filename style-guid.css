@@ -1,0 +1,47 @@
+/**
+Colors:
+1. Base:         rgb(255, 255, 255)
+2. Contrast:     rgb(21, 21, 21)
+3. Primary:      #af9fff
+4. Primary Dark: #8d7ddd
+
+Layout:
+1. contentSize:  max(600px, 45vw)
+2. wideSize:     max(1200px, 90vw)
+
+Spacing:
+1. 10: 12.8-14.4px      - 0.5 строки
+2. 20: 25.6-28.8px      - 1 строка
+3. 30: 32-36px          - 1.25 строки
+4. 40: 51.2-57.6px      - 2 строки
+5. 50: 64-100.8px       - 2.5-3.5 строки
+6. 60: 76.8-172.8px     - 3-6 строк
+7. 70: 102.4-201.6px    - 4-7 строк
+
+Fonts:
+1. system-font
+2. ibm-plex-mono
+3. neue-montreal
+
+Font Size:     | 320px:    | 2100px:    |
+-----------------------------------------
+1. Small       | 13.9773px | 14.6081px  | Small Text
+2. Normal      | 16px      | 18px       | Text
+3. Medium      | 18.3154px | 22.1794px  | H6
+4. Large       | 20.9659px | 27.3293px  | H5
+5. X-Large     | 24px      | 33.6749px  | H4
+6. 2X-large    | 27.4731px | 41.4939px  | H3
+7. 3X-large    | 31.4489px | 51.1284px  | H2
+8. 4X-large    | 36px      | 63px       | H1
+9. 5X-large    | 41.2096px | 117.8619px | Title
+10. 6X-large   | 47.1730px | 145.2283px | Big Title
+
+Typography:
+fontFamily: neue-montreal
+fontSize:   16px-18px
+fontWeight: 400
+lineHeight: 1.6
+
+
+browser-sync start --proxy "localhost:8888/wordpress" --files "./**" --browser "firefox" --no-notify
+*/
