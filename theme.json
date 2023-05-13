@@ -472,7 +472,7 @@
 					"text": "var(--wp--preset--color--contrast-75)"
 				},
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--small)"
+					"fontSize": "var(--wp--preset--font-size--normal)"
 				}
 			},
 			"core/post-date": {
@@ -1052,6 +1052,11 @@
 			"area": "footer",
 			"name": "footer",
 			"title": "Footer"
+		},
+		{
+			"area": "uncategorized",
+			"name": "loop",
+			"title": "Loop"
 		},
 		{
 			"area": "uncategorized",

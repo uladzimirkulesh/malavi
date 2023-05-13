@@ -2,7 +2,7 @@
 /**
  * Title: Default Footer
  * Slug: silence/footer-default
- * Categories: footer
+ * Categories: footer, silence
  * Block Types: core/template-part/footer
  */
 ?>

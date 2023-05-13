@@ -57,3 +57,23 @@ if ( ! function_exists( 'silence_styles' ) ) :
 endif;
 
 add_action( 'wp_enqueue_scripts', 'silence_styles' );
+
+if ( ! function_exists( 'silence_register_pattern_categories' ) ) :
+
+	/**
+	 * Registers pattern categories.
+	 *
+	 * @since Silence 1.0
+	 *
+	 * @return void
+	 */
+	function silence_register_pattern_categories() {
+		register_block_pattern_category(
+			'silence',
+			array( 'label' => esc_html__( 'Silence', 'silense' ) )
+		);
+	}
+
+endif;
+
+add_action( 'init', 'silence_register_pattern_categories', 9 );

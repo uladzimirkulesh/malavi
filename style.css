@@ -337,6 +337,10 @@ a {
     text-decoration-thickness: 1px !important;
 }
 
+.has-xxxxxx-large-font-size {
+    line-height: 0.95;
+}
+
 .wp-block-template-part {
     margin-top: 0 !important;
 }
