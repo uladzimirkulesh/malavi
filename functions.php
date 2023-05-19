@@ -38,6 +38,7 @@ if ( ! function_exists( 'silence_styles' ) ) :
 	 * @return void
 	 */
 	function silence_styles() {
+
 		$theme_version  = wp_get_theme()->get( 'Version' );
 		$version_string = is_string( $theme_version ) ? $theme_version : false;
 
@@ -68,12 +69,52 @@ if ( ! function_exists( 'silence_register_pattern_categories' ) ) :
 	 * @return void
 	 */
 	function silence_register_pattern_categories() {
+
 		register_block_pattern_category(
 			'silence',
 			array( 'label' => esc_html__( 'Silence', 'silense' ) )
 		);
+
 	}
 
 endif;
 
 add_action( 'init', 'silence_register_pattern_categories', 9 );
+
+if ( ! function_exists( 'silence_excerpt_more' ) ) :
+
+	/**
+	 * Replaces "[...]" (appended to automatically generated excerpts) with "...".
+	 *
+	 * @since Silence 1.0
+	 *
+	 * @return string Ellipsis.
+	 */
+	function silence_excerpt_more() {
+
+		return '&hellip;';
+
+	}
+
+endif;
+
+add_filter( 'excerpt_more', 'silence_excerpt_more' );
+
+if ( ! function_exists( 'silence_custom_excerpt_length' ) ) :
+
+	/**
+	 * Filters the maximum number of words in a post excerpt.
+	 *
+	 * @since Silence 1.0
+	 *
+	 * @param int $length Maximum number of words in a post excerpt.
+	 */
+	function silence_custom_excerpt_length( $length ) {
+
+		return 35;
+
+	}
+
+endif;
+
+add_filter( 'excerpt_length', 'silence_custom_excerpt_length', 999 );

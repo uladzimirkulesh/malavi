@@ -7,7 +7,7 @@ Description: Silence is designed to take advantage of the new design tools intro
 Requires at least: 6.1
 Tested up to: 6.2
 Requires PHP: 5.6
-Version: 1.016
+Version: 1.019
 License: Themeforest Split Licence
 License URI: https://themeforest.net/licenses
 Text Domain: silence
@@ -350,6 +350,15 @@ a {
 	padding-left: var(--wp--style--root--padding-left);
 }
 
+body .is-layout-constrained > * + h1,
+body .is-layout-constrained > * + h2,
+body .is-layout-constrained > * + h3,
+body .is-layout-constrained > * + h4,
+body .is-layout-constrained > * + h5,
+body .is-layout-constrained > * + h6 {
+	margin-block-start: calc(var(--wp--style--block-gap) * 2);
+}
+
 /**
  * Navigation
  */
@@ -449,6 +458,76 @@ a {
 }
 
 /**
+ * Loop
+ */
+
+.wp-block-post-template.is-flex-container {
+	gap: calc(var(--wp--style--block-gap) * 2) calc(var(--wp--style--block-gap) * 1.5);
+}
+
+@media (min-width: 600px) {
+    .wp-block-post-template.is-flex-container.is-flex-container.columns-3 > li {
+        width: 100%;
+    }
+}
+
+@media (min-width: 640px) {
+    .wp-block-post-template.is-flex-container.is-flex-container.columns-3 > li {
+        width: calc((100% - (var(--wp--style--block-gap) * 1.5)) / 2 - 0.5px);
+    }
+}
+
+@media (min-width: 960px) {
+    .wp-block-post-template.is-flex-container.is-flex-container.columns-3 > li {
+        width: calc((100% - 2 * (var(--wp--style--block-gap) * 1.5)) / 3 - 0.5px);
+    }
+}
+
+.wp-block-post-featured-image {
+	padding-top: 66.6667%;
+}
+
+.wp-block-post-featured-image a {
+	height: 100%;
+}
+
+.wp-block-post-featured-image img {
+    position: absolute;
+	width: 100%;
+    height: 100%;
+	top: 0;
+	left: 0;
+    object-fit: cover;
+}
+
+/**
+ * Pagination
+ */
+
+.wp-block-query-pagination.is-layout-flex {
+    gap: calc(var(--wp--style--block-gap) / 2);
+}
+
+.wp-block-query-pagination .wp-block-query-pagination-previous,
+.wp-block-query-pagination .page-numbers,
+.wp-block-query-pagination .wp-block-query-pagination-next {
+    display: inline-block;
+    padding: 0.3125em 0.875em;
+    border-radius: 0.5rem;
+    background-color: var(--wp--preset--color--contrast-5);
+}
+
+.wp-block-query-pagination .wp-block-query-pagination-previous ::after,
+.wp-block-query-pagination .wp-block-query-pagination-next ::after {
+    opacity: 1;
+}
+
+.wp-block-query-pagination .page-numbers.current {
+    color: var(--wp--preset--color--contrast);
+    background-color: var(--wp--preset--color--primary-dark);
+}
+
+/**
  * Post terms
  */
 
@@ -461,7 +540,17 @@ a {
 }
 
 .wp-block-post-terms__separator {
-    display: none;
+    clip: rect(1px,1px,1px,1px);
+    word-wrap: normal !important;
+    border: 0;
+    -webkit-clip-path: inset(50%);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
 }
 
 .taxonomy-post_tag a::before {
