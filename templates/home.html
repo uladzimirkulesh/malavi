@@ -2,20 +2,16 @@
 
 <!-- wp:group {"tagName":"main","style":{"spacing":{"margin":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}}} -->
 <main class="wp-block-group" style="margin-top:var(--wp--preset--spacing--70);margin-bottom:var(--wp--preset--spacing--70)">
-	<!-- wp:group {"align":"wide","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
-	<div class="wp-block-group alignwide" style="margin-bottom:var(--wp--preset--spacing--50)">
-		<!-- wp:heading {"level":1,"align":"wide","style":{"typography":{"textTransform":"uppercase"}},"fontSize":"xxxxxx-large"} -->
-		<h1 class="wp-block-heading alignwide has-xxxxxx-large-font-size" style="text-transform:uppercase">Mindblown: a blog about philosophy</h1>
+	<!-- wp:group {"tagName":"header","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}},"className":"entry-header","layout":{"type":"constrained"}} -->
+	<header class="wp-block-group entry-header" style="margin-bottom:var(--wp--preset--spacing--50)">
+		<!-- wp:heading {"level":1,"align":"full","style":{"spacing":{"margin":{"right":"0","bottom":"var:preset|spacing|50","left":"0"}}},"fontSize":"xxxxx-large"} -->
+		<h1 class="wp-block-heading alignfull has-xxxxx-large-font-size" style="margin-right:0;margin-bottom:var(--wp--preset--spacing--50);margin-left:0">Another day, another new beginning.</h1>
 		<!-- /wp:heading -->
-	</div>
-	<!-- /wp:group -->
 
-	<!-- wp:group {"align":"wide","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50","top":"0"}}},"layout":{"type":"constrained"}} -->
-	<div class="wp-block-group alignwide" style="margin-top:0;margin-bottom:var(--wp--preset--spacing--50)">
-		<!-- wp:separator {"align":"wide","className":"is-style-wide"} -->
-		<hr class="wp-block-separator alignwide has-alpha-channel-opacity is-style-wide"/>
+		<!-- wp:separator {"align":"full","className":"is-style-wide"} -->
+		<hr class="wp-block-separator alignfull has-alpha-channel-opacity is-style-wide"/>
 		<!-- /wp:separator -->
-	</div>
+	</header>
 	<!-- /wp:group -->
 
 	<!-- wp:template-part {"slug":"loop"} /-->

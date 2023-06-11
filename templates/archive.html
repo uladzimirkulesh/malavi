@@ -2,22 +2,18 @@
 
 <!-- wp:group {"tagName":"main","style":{"spacing":{"margin":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}}} -->
 <main class="wp-block-group" style="margin-top:var(--wp--preset--spacing--70);margin-bottom:var(--wp--preset--spacing--70)">
-	<!-- wp:group {"align":"wide","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
-	<div class="wp-block-group alignwide" style="margin-bottom:var(--wp--preset--spacing--50)">
-		<!-- wp:query-title {"type":"archive","showPrefix":false,"align":"wide","style":{"typography":{"textTransform":"uppercase"}},"fontSize":"xxxxx-large"} /-->
-	</div>
-	<!-- /wp:group -->
-
-	<!-- wp:group {"align":"wide","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50","top":"0"}}},"layout":{"type":"constrained"}} -->
-	<div class="wp-block-group alignwide" style="margin-top:0;margin-bottom:var(--wp--preset--spacing--50)">
-		<!-- wp:separator {"align":"wide","className":"is-style-wide"} -->
-		<hr class="wp-block-separator alignwide has-alpha-channel-opacity is-style-wide"/>
+	<!-- wp:group {"tagName":"header","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}},"className":"page-header","layout":{"type":"constrained"}} -->
+	<header class="wp-block-group page-header" style="margin-bottom:var(--wp--preset--spacing--50)">
+		<!-- wp:query-title {"type":"archive","showPrefix":false,"align":"full","style":{"spacing":{"margin":{"right":"0","bottom":"var:preset|spacing|50","left":"0"}}},"fontSize":"xxxx-large"} /-->
+	
+		<!-- wp:separator {"align":"full","className":"is-style-wide"} -->
+		<hr class="wp-block-separator alignfull has-alpha-channel-opacity is-style-wide"/>
 		<!-- /wp:separator -->
-	</div>
+	</header>
 	<!-- /wp:group -->
-
-	<!-- wp:template-part {"slug":"loop"} /-->
+	
+	<!-- wp:template-part {"slug":"loop","theme":"silence"} /-->
 </main>
 <!-- /wp:group -->
-
-<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->
+	
+<!-- wp:template-part {"slug":"footer","theme":"silence","tagName":"footer"} /-->

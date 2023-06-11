@@ -19,6 +19,9 @@ if ( ! function_exists( 'silence_support' ) ) :
 	 */
 	function silence_support() {
 
+		// Add support for block styles.
+		add_theme_support( 'wp-block-styles' );
+
 		// Enqueue editor styles.
 		add_editor_style( array( 'style.css' ) );
 
@@ -72,7 +75,7 @@ if ( ! function_exists( 'silence_register_pattern_categories' ) ) :
 
 		register_block_pattern_category(
 			'silence',
-			array( 'label' => esc_html__( 'Silence', 'silense' ) )
+			array( 'label' => esc_html__( 'Silence', 'silence' ) )
 		);
 
 	}

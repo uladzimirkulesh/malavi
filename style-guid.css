@@ -1,47 +1,51 @@
-/**
+/*
 Colors:
 1. Base:         rgb(255, 255, 255)
-2. Contrast:     rgb(21, 21, 21)
-3. Primary:      #af9fff
-4. Primary Dark: #8d7ddd
+2. Contrast:     rgb(0, 0, 0)
+3. Primary:      #70ff4d
 
 Layout:
-1. contentSize:  max(600px, 45vw)
-2. wideSize:     max(1200px, 90vw)
+1. contentSize:  max(640px, 40vw)
+2. wideSize:     max(1280px, 80vw)
 
 Spacing:
-1. 10: 12.8-14.4px      - 0.5 строки
-2. 20: 25.6-28.8px      - 1 строка
-3. 30: 32-36px          - 1.25 строки
-4. 40: 51.2-57.6px      - 2 строки
-5. 50: 64-100.8px       - 2.5-3.5 строки
-6. 60: 76.8-172.8px     - 3-6 строк
-7. 70: 102.4-201.6px    - 4-7 строк
+1. 10: 12.8-14.4px     - 0.5 строки
+2. 20: 25.6-28.8px     - 1 строка
+3. 30: 25.6-43.2px     - 1-1.5 строки
+4. 40: 38.4-57.6px     - 1.5-2 строки
+5. 50: 51.2-115.2px    - 2-4 строки
+6. 60: 102.4-172.8px   - 4-6 строк
+7. 70: 128-259.2px     - 5-9 строк
 
 Fonts:
 1. system-font
 2. ibm-plex-mono
-3. neue-montreal
-
-Font Size:     | 320px:    | 2100px:    |
------------------------------------------
-1. Small       | 14px      | 16px       | Small Text
-2. Normal      | 16px      | 18px       | Text
-3. Medium      | 18.3154px | 22.1794px  | H6
-4. Large       | 20.9659px | 27.3293px  | H5
-5. X-Large     | 24px      | 33.6749px  | H4
-6. 2X-large    | 27.4731px | 41.4939px  | H3
-7. 3X-large    | 31.4489px | 51.1284px  | H2
-8. 4X-large    | 36px      | 63px       | H1
-9. 5X-large    | 41.2096px | 117.8619px | Title
-10. 6X-large   | 47.1730px | 145.2283px | Big Title
+3. general-sans
 
 Typography:
-fontFamily: neue-montreal
-fontSize:   16px-18px
-fontWeight: 400
+fontFamily: general-sans
+fontWeight: 390
 lineHeight: 1.6
+
+--wp--preset--font-size--small: clamp(0.83rem, 0.46vw + 0.44rem, 0.9rem);
+--wp--preset--font-size--normal: clamp(1rem, 0.85vw + 0.27rem, 1.13rem);
+--wp--preset--font-size--medium: clamp(1.2rem, 1.41vw + 0rem, 1.41rem);
+--wp--preset--font-size--large: clamp(1.44rem, 2.17vw + -0.42rem, 1.76rem);
+--wp--preset--font-size--x-large: clamp(1.73rem, 3.21vw + -1.01rem, 2.2rem);
+--wp--preset--font-size--xx-large: clamp(2.07rem, 4.6vw + -1.86rem, 2.75rem);
+--wp--preset--font-size--xxx-large: clamp(2.49rem, 6.46vw + -3.03rem, 3.43rem);
+
+https://www.fluid-type-scale.com/calculate?minFontSize=16&minWidth=1366&minRatio=1.2&maxFontSize=18&maxWidth=1600&maxRatio=1.25&steps=small%2Cnormal%2Cmedium%2Clarge%2Cx-large%2Cxx-large%2Cxxx-large&baseStep=normal&prefix=wp--preset--font-size-&decimals=2&useRems=on&remValue=16&previewFont=Inter&previewText=Almost+before+we+knew+it%2C+we+had+left+the+ground&previewWidth=1280
+
+--wp--preset--font-size--xxxx-large: clamp(2.99rem, 8.02vw + -0.02rem, 8rem);
+
+https://www.fluid-type-scale.com/calculate?minFontSize=47.808&minWidth=600&minRatio=1.2&maxFontSize=128&maxWidth=1600&maxRatio=1.25&steps=xxxx-large&baseStep=xxxx-large&prefix=wp--preset--font-size-&decimals=2&useRems=on&remValue=16&previewFont=Inter&previewText=Almost+before+we+knew+it%2C+we+had+left+the+ground&previewWidth=1280
+
+--wp--preset--font-size--xxxxx-large: clamp(3.59rem, 8.66vw + 0.34rem, 9rem);
+
+https://www.fluid-type-scale.com/calculate?minFontSize=57.3696&minWidth=600&minRatio=1.2&maxFontSize=144&maxWidth=1600&maxRatio=1.25&steps=xxxxx-large&baseStep=xxxxx-large&prefix=wp--preset--font-size-&decimals=2&useRems=on&remValue=16&previewFont=Inter&previewText=Almost+before+we+knew+it%2C+we+had+left+the+ground&previewWidth=1280
 
 
 browser-sync start --proxy "localhost:8888/wordpress" --files "./**" --browser "firefox" --no-notify
+
 */
