@@ -17,8 +17,8 @@
 <div class="wp-block-group" style="margin-top:0">
 	<!-- wp:group {"align":"full","layout":{"type":"default"}} -->
 	<div class="wp-block-group alignfull">
-		<!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}},"textColor":"contrast-50"} -->
-		<p class="has-text-align-center has-contrast-50-color has-text-color" style="margin-bottom:var(--wp--preset--spacing--50)"><?php echo esc_html_x( 'Error 404: The page you were looking for cannot be found.', 'Message to convey that a webpage could not be found', 'silence' ); ?></p>
+		<!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}},"textColor":"contrast-40"} -->
+		<p class="has-text-align-center has-contrast-40-color has-text-color" style="margin-bottom:var(--wp--preset--spacing--50)"><?php echo esc_html_x( 'Error 404: The page you were looking for cannot be found.', 'Message to convey that a webpage could not be found', 'silence' ); ?></p>
 		<!-- /wp:paragraph -->
 
 		<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->

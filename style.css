@@ -7,7 +7,7 @@ Description: Silence is designed to take advantage of the new design tools intro
 Requires at least: 6.1
 Tested up to: 6.2
 Requires PHP: 5.6
-Version: 1.0432
+Version: 1.0435
 License: Themeforest Split Licence
 License URI: https://themeforest.net/licenses
 Text Domain: silence
@@ -264,8 +264,15 @@ Links
 
 a {
     cursor: pointer;
+    text-decoration-color: var(--wp--preset--color--contrast-30) !important;
     text-decoration-thickness: 1px !important;
-    text-underline-offset: 0.15em;
+    text-underline-offset: 0.25em;
+}
+
+a:hover,
+a:focus,
+a:active {
+    text-decoration-color: var(--wp--preset--color--contrast) !important;
 }
 
 a,
@@ -282,7 +289,7 @@ label {
     display: block;
     margin-bottom: calc(var(--wp--style--block-gap) / 4);
 
-    color: var(--wp--preset--color--contrast-50);
+    color: var(--wp--preset--color--contrast-40);
     font-size: var(--wp--preset--font-size--small);
     font-weight: 390;
 }
@@ -332,7 +339,7 @@ textarea {
     background-color: var(--wp--preset--color--contrast-5);
     border-width: 0 0 1px 0;
     border-style: solid;
-    border-color: var(--wp--preset--color--contrast-25);
+    border-color: var(--wp--preset--color--contrast-30);
     -webkit-border-radius: 0;
     border-radius: 0;
     -webkit-box-shadow: none;
@@ -351,7 +358,7 @@ textarea {
 	font-size: var(--wp--preset--font-size--normal);
 	border-width: 0 0 1px 0;
     border-style: solid;
-    border-color: var(--wp--preset--color--contrast-25);
+    border-color: var(--wp--preset--color--contrast-30);
 }
 
 input[type="text"]:hover,
@@ -370,7 +377,7 @@ input[type="datetime"]:hover,
 input[type="datetime-local"]:hover,
 input[type="color"]:hover,
 textarea:hover {
-    border-color: var(--wp--preset--color--contrast-25);
+    border-color: var(--wp--preset--color--contrast-30);
 }
 
 input[type="text"]:focus,
@@ -436,7 +443,7 @@ select {
     background-color: var(--wp--preset--color--contrast-5);
     border-width: 0 0 1px 0;
     border-style: solid;
-    border-color: var(--wp--preset--color--contrast-25);
+    border-color: var(--wp--preset--color--contrast-30);
     -webkit-border-radius: 0;
     border-radius: 0;
     -webkit-box-shadow: none;
@@ -510,7 +517,7 @@ Misk
 
 b,
 strong {
-  font-weight: 530;
+  font-weight: 500;
   color: var(--wp--preset--color--contrast);
 }
 
@@ -543,25 +550,39 @@ acronym {
 
 mark,
 ins {
-  padding-left: 0.25em;
-  padding-right: 0.25em;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
 
-  color: var(--wp--preset--color--base);
-  text-decoration: none;
+    color: var(--wp--preset--color--base);
+    text-decoration: none;
   
-  background-color: var(--wp--preset--color--primary);
+    background-color: var(--wp--preset--color--primary);
 }
 
 big {
-  font-size: 125%;
+    font-size: 125%;
 }
 
-.has-xxxx-large-font-size {
-    line-height: 0.99;
+blockquote {
+    position: relative;
 }
 
-.has-xxxxx-large-font-size {
-    line-height: 0.9551;
+blockquote::before {
+	content: "\275D";
+	position: absolute;
+	left: -3px;
+	top: -3px;
+	font-size: 2.5rem;
+    line-height: 1;
+}
+
+.wp-block-pullquote blockquote::before {
+    display: none;
+}
+
+.has-xxxxxx-large-font-size {
+    line-height: 0.92;
+    letter-spacing: -0.032em;
 }
 
 :not(pre) > code {
@@ -628,7 +649,7 @@ Navigation
 */
 
 .wp-block-navigation .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation__container > .wp-block-navigation-item.has-child:hover > a {
-    color: var(--wp--preset--color--contrast-50);
+    color: var(--wp--preset--color--contrast-40);
 }
 
 /* Submenu container */
@@ -746,7 +767,7 @@ Loop item
     justify-content: space-between;
     min-height: 200px;
     padding: var(--wp--preset--spacing--20);
-    border: 1px solid var(--wp--preset--color--contrast-25);
+    border: 1px solid var(--wp--preset--color--contrast-30);
 }
 
 .wp-block-query .wp-block-post-featured-image {
@@ -858,6 +879,26 @@ Comments
     display: inherit;
 }
 
+.wp-block-comment-date a {
+    text-decoration-color: transparent !important;
+}
+
+.wp-block-comment-date a:hover,
+.wp-block-comment-date a:focus,
+.wp-block-comment-date a:active {
+    text-decoration-color: var(--wp--preset--color--contrast-30) !important;
+}
+
+.wp-block-comment-edit-link a {
+    text-decoration-color: transparent !important;
+}
+
+.wp-block-comment-edit-link a:hover,
+.wp-block-comment-edit-link a:focus,
+.wp-block-comment-edit-link a:active {
+    text-decoration-color: var(--wp--preset--color--contrast-30) !important;
+}
+
 .comment-body .comment-content {
     margin-top: calc(var(--wp--preset--font-size--normal) * 1.6 / 1.25);
 }
@@ -894,7 +935,7 @@ Comments pagination
     padding-top: var(--wp--preset--spacing--10);
     gap: 0.75rem !important;
     font-size: var(--wp--preset--font-size--small);
-    border-top: 1px solid var(--wp--preset--color--contrast-25);
+    border-top: 1px solid var(--wp--preset--color--contrast-10);
 }
 
 .wp-block-comments-pagination > .wp-block-comments-pagination-next,
@@ -906,7 +947,7 @@ Comments pagination
 
 .wp-block-comments-pagination > a,
 .wp-block-comments-pagination-numbers > *  {
-    color: var(--wp--preset--color--contrast-50);
+    color: var(--wp--preset--color--contrast-40);
 }
 
 .wp-block-comments-pagination a {
@@ -915,7 +956,7 @@ Comments pagination
 
 .wp-block-comments-pagination a:hover,
 .wp-block-comments-pagination a:focus {
-    color: var(--wp--preset--color--primary);
+    color: var(--wp--preset--color--contrast);
 }
 
 .wp-block-comments-pagination-numbers > *  {
@@ -935,8 +976,8 @@ Comments pagination
 Comments form 
 */
 .comment + .wp-block-post-comments-form {
-    margin-top: var(--wp--preset--spacing--40) !important;
-    margin-bottom: var(--wp--preset--spacing--40);
+    margin-top: var(--wp--preset--spacing--30) !important;
+    margin-bottom: var(--wp--preset--spacing--30);
 }
 
 .wp-block-post-comments-form .comment-reply-title {
@@ -1012,40 +1053,26 @@ Footer
 -------------------------------------------------------*/
 
 .footer-links {
-    line-height: calc(var(--wp--preset--font-size--normal) * 1.6);
+    line-height: var(--wp--custom--spacing--base);
 }
 
 .footer-links.is-layout-flex {
     gap: calc(var(--wp--style--block-gap) * 0.5) var(--wp--style--block-gap);
 }
 
-.footer-links a {
-    text-decoration: none;
-}
-
-.footer-links .privacy-policy a {
-    color: var(--wp--preset--color--contrast);
-}
-
-.footer-links .privacy-policy a:hover,
-.footer-links .privacy-policy a:focus,
-.footer-links .privacy-policy a:active {
-    color: var(--wp--preset--color--contrast-50);
-}
-
-.footer-links .email,
-.footer-links .email a {
-    color: var(--wp--preset--color--contrast-50);
-}
-
-.footer-links .email a:hover,
-.footer-links .email a:focus,
-.footer-links .email a:active {
-    color: var(--wp--preset--color--contrast);
-}
-
 .footer-links .copyright {
-    color: var(--wp--preset--color--contrast-50);
+    color: var(--wp--preset--color--contrast-40);
+}
+
+.footer-links .theme-author,
+.footer-links .theme-author a {
+    color: var(--wp--preset--color--contrast-40);
+}
+
+.footer-links .theme-author a:hover,
+.footer-links .theme-author a:focus,
+.footer-links .theme-author a:active {
+    color: var(--wp--preset--color--contrast);
 }
 
 /*-------------------------------------------------------

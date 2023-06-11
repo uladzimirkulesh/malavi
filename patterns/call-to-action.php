@@ -26,7 +26,7 @@
 		<!-- wp:column {"width":"66.6666%","layout":{"type":"default"}} -->
 		<div class="wp-block-column" style="flex-basis:66.6666%">
 			<!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.1455","fontStyle":"normal","fontWeight":"390"}},"fontSize":"xx-large"} -->
-			<p class="has-xx-large-font-size" style="font-style:normal;font-weight:390;line-height:1.1455"><?php
+			<p class="has-xx-large-font-size" style="font-style:normal;font-weight:400;line-height:1.2077"><?php
 			printf(
 				/* Translators: Call to action content. */
 				esc_html__( 'Do you have a project in mind? Contact us and let’s work together, it’s just easy as writing an email: %s', 'silence' ),
