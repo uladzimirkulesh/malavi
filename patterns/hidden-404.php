@@ -8,7 +8,7 @@
 <!-- wp:group {"tagName":"header","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|10"}}},"className":"page-header","layout":{"type":"constrained"}} -->
 <header class="wp-block-group page-header" style="margin-bottom:var(--wp--preset--spacing--10)">
 	<!-- wp:heading {"textAlign":"center","level":1,"align":"full","style":{"spacing":{"margin":{"right":"0","left":"0"}}},"fontSize":"xxxx-large"} -->
-	<h1 class="wp-block-heading alignfull has-text-align-center has-xxxx-large-font-size" style="margin-right:0;margin-left:0"><?php echo esc_html_x( 'Not Found', 'Error code for a webpage that is not found.', 'silence' ); ?></h1>
+	<h1 class="wp-block-heading alignfull has-text-align-center has-xxxxxx-large-font-size" style="margin-right:0;margin-left:0"><?php echo esc_html_x( 'Not Found', 'Error code for a webpage that is not found.', 'silence' ); ?></h1>
 	<!-- /wp:heading -->
 </header>
 <!-- /wp:group -->
