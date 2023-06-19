@@ -24,37 +24,14 @@ Whether you want to build a complex or incredibly simple website, you can do it 
 == Changelog ==
 
 = 1.0 =
-* Released: November 1, 2022
+* Released: November 1, 2023
 
 == Copyright ==
 
-Silence WordPress Theme, Copyright 2021 Uladzimir Kulesh.
+Silence WordPress Theme, Copyright 2023 Uladzimir Kulesh.
 Silence is distributed under the terms of the Themeforest Split Licence.
 
 Image used in screenshot.png - a photo by Uladzimir Kulesh (https://ukathemes.com/), licensed under Creative Commons Zero https://creativecommons.org/publicdomain/zero/1.0/
 
 == Credits ==
 
-normalize.css, Copyright Nicolas Gallagher and Jonathan Neal
-License: MIT
-Source: https://necolas.github.io/normalize.css/
-
-Material Design icons, Copyright Google
-License: Apache license version 2.0.
-Source: https://material.io/tools/icons/
-
-Swiper Slider, Copyright Vladimir Kharlampidi
-License: MIT
-Source: https://swiperjs.com/
-
-ScrollMagic, Copyright Jan Paepke
-License: MIT
-Source: http://scrollmagic.io/
-
-Animsition, Copyright @blivesta, @ungki, @gauravpadia
-License: MIT
-Source: https://github.com/blivesta/animsition
-
-Magnific Popup, Copyright @dimsemenov & contributors
-License: MIT
-Source: https://github.com/dimsemenov/Magnific-Popup
