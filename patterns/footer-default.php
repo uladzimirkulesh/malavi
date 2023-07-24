@@ -13,21 +13,15 @@
 	<!-- /wp:separator -->
 
 	<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"},"margin":{"top":"0"}}},"className":"alignfull row footer-links","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"},"fontSize":"small"} -->
-	<div class="wp-block-group row alignfull footer-links has-small-font-size" style="margin-top:0;padding-top:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--20)">
+	<div class="wp-block-group alignfull row footer-links has-small-font-size" style="margin-top:0;padding-top:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--20)">
+		<!-- wp:navigation {"overlayMenu":"never","className":"footer-navigation","fontSize":"small"} /-->
+
 		<!-- wp:paragraph {"className":"copyright"} -->
 		<p class="copyright"><?php
 		printf(
 			/* Translators: Copyright. */
-			esc_html__( '© 2023 Silense Theme', 'silence' )
-		) ?></p>
-		<!-- /wp:paragraph -->
-
-		<!-- wp:paragraph {"className":"theme-author"} -->
-		<p class="theme-author"><?php
-		printf(
-			/* Translators: Email. */
-			esc_html__( 'Code by %s', 'silence' ),
-			'<a href="' . esc_url( __( 'kulesh.eu', 'silence' ) ) . '">Uladzimir Kulesh</a>' )
+			esc_html__( '© 2023 %s. All rights reserved.', 'silence' ),
+			'<a href="' . esc_url( __( 'https://uladzimirkulesh.com', 'silence' ) ) . '">Uladzimir Kulesh</a>' )
 		?></p>
 		<!-- /wp:paragraph -->
 	</div>

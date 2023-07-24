@@ -127,27 +127,27 @@
 					"name": "2"
 				},
 				{
-					"size": "clamp(1.625rem, 2.2344vw + 0.0889rem, 2.7422rem)",
+					"size": "clamp(1.625rem, 1.3542vw + 1.3542rem, 2.4375rem)",
 					"slug": "30",
 					"name": "3"
 				},
 				{
-					"size": "clamp(2.4375rem, 2.4375vw + 0.7617rem, 3.6563rem)",
+					"size": "clamp(2.4375rem, 1.3542vw + 2.1667rem, 3.25rem)",
 					"slug": "40",
 					"name": "4"
 				},
 				{
-					"size": "clamp(2.375rem, 6.2188vw + -1.9004rem, 5.4844rem)",
+					"size": "clamp(3.25rem, 2.7083vw + 2.7083rem, 4.875rem)",
 					"slug": "50",
 					"name": "5"
 				},
 				{
-					"size": "clamp(4.875rem, 8.5313vw + -0.9902rem, 9.1406rem)",
+					"size": "clamp(4.875rem, 5.4167vw + 3.7917rem, 8.125rem)",
 					"slug": "60",
 					"name": "6"
 				},
 				{
-					"size": "clamp(6.5rem, 16.25vw + -4.6719rem, 14.625rem)",
+					"size": "clamp(6.5rem, 10.8333vw + 4.3333rem, 13rem)",
 					"slug": "70",
 					"name": "7"
 				}
@@ -317,7 +317,8 @@
 							}
 						}
 					}
-				}
+				},
+				"css": "&.footer-navigation {\n\tline-height: var(--wp--custom--spacing--base);\n\tgap: var(--wp--style--block-gap);\n}"
 			},
 			"core/post-title": {
 				"elements": {

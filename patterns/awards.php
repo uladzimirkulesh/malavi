@@ -9,7 +9,7 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"pattern-awards","layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignfull pattern-awards">
 	<!-- wp:heading {"align":"full","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}},"className":"awards-title","fontSize":"xxxxx-large"} -->
-	<h2 class="wp-block-heading alignfull awards-title has-xxxxx-large-font-size" style="margin-bottom:var(--wp--preset--spacing--50)"><?php echo esc_html_x( 'Awards', 'Title for Awards section', 'silence' ); ?></h2>
+	<h2 class="wp-block-heading alignfull awards-title has-xxxxx-large-font-size" style="margin-bottom:var(--wp--preset--spacing--40)"><?php echo esc_html_x( 'Awards', 'Title for Awards section', 'silence' ); ?></h2>
 	<!-- /wp:heading -->
 
 	<!-- wp:group {"align":"full","style":{"border":{"top":{"color":"var:preset|color|contrast","width":"2px"}},"spacing":{"margin":{"bottom":"var:preset|spacing|40"}}},"className":"awards-list","layout":{"type":"default"}} -->
