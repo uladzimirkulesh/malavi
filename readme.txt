@@ -2,36 +2,39 @@
 
 Contributors: Uladzimir Kulesh
 Requires at least: 6.1
-Tested up to: 6.1
+Tested up to: 6.2
 Requires PHP: 5.6
 Stable tag: 1.0
-License: Themeforest Split Licence
-License URI: https://themeforest.net/licenses
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Silence is designed to take advantage of the new design tools introduced in WordPress 6.1. With a clean, blank base as a starting point, this default theme includes ten diverse style variations created by members of the WordPress community.
-
-Whether you want to build a complex or incredibly simple website, you can do it quickly and intuitively through the bundled styles or dive into creation and full customization yourself.
+Silence is an easy-to-use WordPress theme inspired by simplicity. With block patterns, which allow you to create a beautiful layout in a matter of seconds, this theme’s colors and eye-catching design will let your work shine. Whether you want to build a complex or incredibly simple website, you can do it quickly and intuitively through the bundled styles or dive into creation and full customization yourself.
 
 == Installation ==
 
-1. In your admin panel, go to Appearance > Themes and click the "Add New" button.
+1. In your admin panel, go to "Appearance > Themes" and click the "Add New" button.
 2. Click "Upload Theme" and "Choose File", then select the theme's .zip file. Click "Install Now".
 3. Click "Activate" to use your new theme right away.
-4. Navigate to Appearance > Customize in your admin panel and customize to taste.
+4. Navigate to "Appearance > Editor" in your admin panel and customize to taste.
 
 == Changelog ==
 
 = 1.0 =
-* Released: November 1, 2023
+* Released: July 1, 2023
 
 == Copyright ==
 
 Silence WordPress Theme, Copyright 2023 Uladzimir Kulesh.
-Silence is distributed under the terms of the Themeforest Split Licence.
+Silence is distributed under the terms of the GNU GPL.
 
-Image used in screenshot.png - a photo by Uladzimir Kulesh (https://ukathemes.com/), licensed under Creative Commons Zero https://creativecommons.org/publicdomain/zero/1.0/
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 2 of the License, or
+(at your option) any later version.
 
-== Credits ==
-
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.

@@ -391,7 +391,7 @@
 					}
 				}
 			},
-			"core/comments-title":{
+			"core/comments-title": {
 				"spacing": {
 					"margin": {
 						"top": "0",

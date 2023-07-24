@@ -1,0 +1,82 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 2,
+	"title": "Dark",
+	"settings": {
+		"custom": {
+			"color": {
+				"base": "0, 0, 0",
+				"contrast": "255, 255, 255"
+			}
+		},
+		"color": {
+			"palette": [
+				{
+					"color": "rgba(var(--wp--custom--color--base), 1)",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "rgba(var(--wp--custom--color--base), 0.97)",
+					"name": "Base Text",
+					"slug": "base-text"
+				},
+				{
+					"color": "rgba(var(--wp--custom--color--base), 0.4)",
+					"name": "Base Secondary Text",
+					"slug": "base-secondary-text"
+				},
+				{
+					"color": "rgba(var(--wp--custom--color--base), 0.25)",
+					"name": "Base Text Underline",
+					"slug": "base-text-underline"
+				},
+				{
+					"color": "rgba(var(--wp--custom--color--base), 0.12)",
+					"name": "Base Border",
+					"slug": "base-border"
+				},
+				{
+					"color": "rgba(var(--wp--custom--color--base), 0.03)",
+					"name": "Base Secondary Background",
+					"slug": "base-secondary-bg"
+				},
+				{
+					"color": "rgba(var(--wp--custom--color--contrast), 1)",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "rgba(var(--wp--custom--color--contrast), 0.97)",
+					"name": "Contrast Text",
+					"slug": "contrast-text"
+				},
+				{
+					"color": "rgba(var(--wp--custom--color--contrast), 0.4)",
+					"name": "Contrast Secondary Text",
+					"slug": "contrast-secondary-text"
+				},
+				{
+					"color": "rgba(var(--wp--custom--color--contrast), 0.25)",
+					"name": "Contrast Text Underline",
+					"slug": "contrast-text-underline"
+				},
+				{
+					"color": "rgba(var(--wp--custom--color--contrast), 0.12)",
+					"name": "Contrast Border",
+					"slug": "contrast-border"
+				},
+				{
+					"color": "rgba(var(--wp--custom--color--contrast), 0.03)",
+					"name": "Contrast Secondary Background",
+					"slug": "contrast-secondary-bg"
+				},
+				{
+					"color": "#d10005",
+					"name": "Primary",
+					"slug": "primary"
+				}
+			]
+		}
+	}
+}
