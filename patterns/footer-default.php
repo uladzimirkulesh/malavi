@@ -20,7 +20,7 @@
 		<p class="copyright"><?php
 		printf(
 			/* Translators: Copyright. */
-			esc_html__( '© 2023 %s. All rights reserved.', 'silence' ),
+			esc_html__( '© 2023 %s.', 'silence' ),
 			'<a href="' . esc_url( __( 'https://uladzimirkulesh.com', 'silence' ) ) . '">Uladzimir Kulesh</a>' )
 		?></p>
 		<!-- /wp:paragraph -->

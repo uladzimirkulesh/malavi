@@ -12,6 +12,16 @@
 		"color": {
 			"palette": [
 				{
+					"color": "#d10005",
+					"name": "Primary",
+					"slug": "primary"
+				},
+				{
+					"color": "#ffe600",
+					"name": "Secondary",
+					"slug": "secondary"
+				},
+				{
 					"color": "rgba(var(--wp--custom--color--base), 1)",
 					"name": "Base",
 					"slug": "base"
@@ -37,7 +47,7 @@
 					"slug": "base-border"
 				},
 				{
-					"color": "rgba(var(--wp--custom--color--base), 0.03)",
+					"color": "rgba(var(--wp--custom--color--base), 0.045)",
 					"name": "Base Secondary Background",
 					"slug": "base-secondary-bg"
 				},
@@ -47,34 +57,29 @@
 					"slug": "contrast"
 				},
 				{
-					"color": "rgba(var(--wp--custom--color--contrast), 0.97)",
+					"color": "rgba(var(--wp--custom--color--contrast), 0.8)",
 					"name": "Contrast Text",
 					"slug": "contrast-text"
 				},
 				{
-					"color": "rgba(var(--wp--custom--color--contrast), 0.4)",
+					"color": "rgba(var(--wp--custom--color--contrast), 0.55)",
 					"name": "Contrast Secondary Text",
 					"slug": "contrast-secondary-text"
 				},
 				{
-					"color": "rgba(var(--wp--custom--color--contrast), 0.25)",
+					"color": "rgba(var(--wp--custom--color--contrast), 0.4)",
 					"name": "Contrast Text Underline",
 					"slug": "contrast-text-underline"
 				},
 				{
-					"color": "rgba(var(--wp--custom--color--contrast), 0.12)",
+					"color": "rgba(var(--wp--custom--color--contrast), 0.2)",
 					"name": "Contrast Border",
 					"slug": "contrast-border"
 				},
 				{
-					"color": "rgba(var(--wp--custom--color--contrast), 0.03)",
+					"color": "rgba(var(--wp--custom--color--contrast), 0.07)",
 					"name": "Contrast Secondary Background",
 					"slug": "contrast-secondary-bg"
-				},
-				{
-					"color": "#d10005",
-					"name": "Primary",
-					"slug": "primary"
 				}
 			]
 		}
