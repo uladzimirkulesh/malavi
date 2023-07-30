@@ -70,7 +70,7 @@
 							<!-- /wp:paragraph -->
 
 							<!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase"},"spacing":{"margin":{"top":"var:preset|spacing|60"}}},"className":"project-card-more-link","fontSize":"x-small"} -->
-							<p class="project-card-more-link has-x-small-font-size" style="margin-top:var(--wp--preset--spacing--60);text-transform:uppercase"><a rel="noreferrer noopener" href="http://behance.com" target="_blank"><span class="link-text"><?php echo esc_html__( 'View case', 'silence' ) ?></span><span class="link-icon"><?php echo esc_html__( '→', 'silence' ) ?></span></a></p>
+							<p class="project-card-more-link has-x-small-font-size" style="margin-top:var(--wp--preset--spacing--60);text-transform:uppercase"><a rel="noreferrer noopener" href="http://behance.com" target="_blank"><span class="link-text"><?php echo esc_html__( 'View case', 'silence' ) ?></span><span class="material-icons link-icon">arrow_forward</span></a></p>
 							<!-- /wp:paragraph -->
 						</div>
 						<!-- /wp:group -->
@@ -110,7 +110,7 @@
 							<!-- /wp:paragraph -->
 
 							<!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase"},"spacing":{"margin":{"top":"var:preset|spacing|60"}}},"className":"project-card-more-link","fontSize":"x-small"} -->
-							<p class="project-card-more-link has-x-small-font-size" style="margin-top:var(--wp--preset--spacing--60);text-transform:uppercase"><a rel="noreferrer noopener" href="http://behance.com" target="_blank"><span class="link-text"><?php echo esc_html__( 'View case', 'silence' ) ?></span><span class="link-icon"><?php echo esc_html__( '→', 'silence' ) ?></span></a></p>
+							<p class="project-card-more-link has-x-small-font-size" style="margin-top:var(--wp--preset--spacing--60);text-transform:uppercase"><a rel="noreferrer noopener" href="http://behance.com" target="_blank"><span class="link-text"><?php echo esc_html__( 'View case', 'silence' ) ?></span><span class="material-icons link-icon">arrow_forward</span></a></p>
 							<!-- /wp:paragraph -->
 						</div>
 						<!-- /wp:group -->
@@ -150,7 +150,7 @@
 							<!-- /wp:paragraph -->
 
 							<!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase"},"spacing":{"margin":{"top":"var:preset|spacing|60"}}},"className":"project-card-more-link","fontSize":"x-small"} -->
-							<p class="project-card-more-link has-x-small-font-size" style="margin-top:var(--wp--preset--spacing--60);text-transform:uppercase"><a rel="noreferrer noopener" href="http://behance.com" target="_blank"><span class="link-text"><?php echo esc_html__( 'View case', 'silence' ) ?></span><span class="link-icon"><?php echo esc_html__( '→', 'silence' ) ?></span></a></p>
+							<p class="project-card-more-link has-x-small-font-size" style="margin-top:var(--wp--preset--spacing--60);text-transform:uppercase"><a rel="noreferrer noopener" href="http://behance.com" target="_blank"><span class="link-text"><?php echo esc_html__( 'View case', 'silence' ) ?></span><span class="material-icons link-icon">arrow_forward</span></a></p>
 							<!-- /wp:paragraph -->
 						</div>
 						<!-- /wp:group -->
@@ -190,7 +190,7 @@
 							<!-- /wp:paragraph -->
 
 							<!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase"},"spacing":{"margin":{"top":"var:preset|spacing|60"}}},"className":"project-card-more-link","fontSize":"x-small"} -->
-							<p class="project-card-more-link has-x-small-font-size" style="margin-top:var(--wp--preset--spacing--60);text-transform:uppercase"><a rel="noreferrer noopener" href="http://behance.com" target="_blank"><span class="link-text"><?php echo esc_html__( 'View case', 'silence' ) ?></span><span class="link-icon"><?php echo esc_html__( '→', 'silence' ) ?></span></a></p>
+							<p class="project-card-more-link has-x-small-font-size" style="margin-top:var(--wp--preset--spacing--60);text-transform:uppercase"><a rel="noreferrer noopener" href="http://behance.com" target="_blank"><span class="link-text"><?php echo esc_html__( 'View case', 'silence' ) ?></span><span class="material-icons link-icon">arrow_forward</span></a></p>
 							<!-- /wp:paragraph -->
 						</div>
 						<!-- /wp:group -->

@@ -75,7 +75,7 @@ if ( ! function_exists( 'silence_register_pattern_categories' ) ) :
 
 		register_block_pattern_category(
 			'silence',
-			array( 'label' => esc_html__( 'Silence', 'silence' ) )
+			array( 'label' => esc_html__( 'Silence Theme', 'silence' ) )
 		);
 
 	}

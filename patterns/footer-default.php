@@ -19,7 +19,7 @@
 		<!-- wp:paragraph {"className":"copyright"} -->
 		<p class="copyright"><?php
 		printf(
-			/* Translators: Copyright. */
+			/* translators: Copyright. */
 			esc_html__( '© 2023 %s.', 'silence' ),
 			'<a href="' . esc_url( __( 'https://uladzimirkulesh.com', 'silence' ) ) . '">Uladzimir Kulesh</a>' )
 		?></p>

@@ -5,7 +5,7 @@
  * Inserter: no
  */
 ?>
-<!-- wp:group {"layout":{"type":"constrained"}} -->
+<!-- wp:group {"layout":{"type":"constrained","justifyContent":"right"}} -->
 <div class="wp-block-group">
 	<!-- wp:comments {"style":{"spacing":{"margin":{"top":"var:preset|spacing|60"}}}} -->
 	<div class="wp-block-comments" style="margin-top:var(--wp--preset--spacing--60)">
