@@ -6,8 +6,8 @@
  * Keywords: Contacts
  */
 ?>
-<!-- wp:group {"tagName":"section","align":"wide","className":"pattern-contacts","layout":{"type":"default"}} -->
-<section class="wp-block-group alignwide pattern-contacts">
+<!-- wp:group {"tagName":"section","align":"wide","className":"section section--contacts","layout":{"type":"default"}} -->
+<section class="wp-block-group alignwide section section--contacts" id="section-contacts">
 	<!-- wp:separator {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|20"}}},"className":"is-style-wide"} -->
 	<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide" style="margin-bottom:var(--wp--preset--spacing--20)"/>
 	<!-- /wp:separator -->

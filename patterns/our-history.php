@@ -6,8 +6,8 @@
  * Keywords: Our history
  */
 ?>
-<!-- wp:group {"tagName":"section","align":"wide","className":"pattern__our-history","layout":{"type":"default"}} -->
-<section class="wp-block-group alignwide pattern__our-history" id="pattern-our-history">
+<!-- wp:group {"tagName":"section","align":"wide","className":"section section--our-history","layout":{"type":"default"}} -->
+<section class="wp-block-group alignwide section section--our-history" id="section-our-history">
 	<!-- wp:separator {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|20"}}},"className":"is-style-wide"} -->
 	<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide" style="margin-bottom:var(--wp--preset--spacing--20)"/>
 	<!-- /wp:separator -->
@@ -96,12 +96,18 @@
 	</div>
 	<!-- /wp:columns -->
 
-	<!-- wp:group {"layout":{"type":"default"}} -->
-	<div class="wp-block-group">
-		<!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-		<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ) ?>/assets/images/our-history-img.jpg" alt=""/></figure>
-		<!-- /wp:image -->
+	<!-- wp:cover {"url":"<?php echo esc_url( get_template_directory_uri() ) ?>/assets/images/our-history-img.jpg","hasParallax":true,"dimRatio":0,"minHeight":100,"minHeightUnit":"vh","align":"full"} -->
+	<div class="wp-block-cover alignfull has-parallax" style="min-height:100vh">
+		<span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span>
+
+		<div role="img" class="wp-block-cover__image-background has-parallax" style="background-position:50% 50%;background-image:url(<?php echo esc_url( get_template_directory_uri() ) ?>/assets/images/our-history-img.jpg)"></div>
+
+		<div class="wp-block-cover__inner-container">
+			<!-- wp:paragraph {"align":"center","placeholder":"Write title…","fontSize":"large"} -->
+			<p class="has-text-align-center has-large-font-size"></p>
+			<!-- /wp:paragraph -->
+		</div>
 	</div>
-	<!-- /wp:group -->
+	<!-- /wp:cover -->
 </section>
 <!-- /wp:group -->

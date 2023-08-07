@@ -348,7 +348,7 @@
 						}
 					}
 				},
-				"css": "&.footer-navigation {\n\tline-height: var(--wp--custom--spacing--base);\n\tgap: var(--wp--style--block-gap);\n}"
+				"css": "&.footer__navigation {\n\tline-height: var(--wp--custom--spacing--base);\n\tgap: var(--wp--style--block-gap);\n}"
 			},
 			"core/post-title": {
 				"typography": {
@@ -691,7 +691,7 @@
 				},
 				"spacing": {
 					"margin": {
-						"top": "var(--wp--preset--spacing--50)"
+						"top": "var(--wp--preset--spacing--50) !important"
 					}
 				},
 				"elements": {

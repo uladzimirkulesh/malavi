@@ -7,7 +7,7 @@ Description: Silence is an easy-to-use WordPress theme inspired by simplicity. W
 Requires at least: 6.1
 Tested up to: 6.2
 Requires PHP: 5.6
-Version: 1.0217
+Version: 1.02194
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 Text Domain: silence
@@ -1180,29 +1180,29 @@ Animation for pagination arrows
 Footer
 -------------------------------------------------------*/
 
-.footer .footer-links {
-	gap: calc(var(--wp--style--block-gap) * 0.5) calc(var(--wp--style--block-gap) * 1.75);
+.footer .footer__container {
+	gap: calc(var(--wp--style--block-gap) * 0.5) var(--wp--style--block-gap);
 }
 
 /*
 Footer navigation
 */
 
-.footer .wp-block-navigation a:where(:not(.wp-element-button)) {
+.footer .footer__navigation a:where(:not(.wp-element-button)) {
 	text-decoration: underline;
 }
 
-.footer .wp-block-navigation a:where(:not(.wp-element-button)):hover,
-.footer .wp-block-navigation a:where(:not(.wp-element-button)):focus,
-.footer .wp-block-navigation a:where(:not(.wp-element-button)):active {
+.footer .footer__navigation a:where(:not(.wp-element-button)):hover,
+.footer .footer__navigation a:where(:not(.wp-element-button)):focus,
+.footer .footer__navigation a:where(:not(.wp-element-button)):active {
 	color: var(--wp--preset--color--contrast) !important;
 }
 
-.footer .wp-block-navigation a:where(:not(.wp-element-button)):focus {
+.footer .footer__navigation a:where(:not(.wp-element-button)):focus {
 	text-decoration: dashed underline;
 }
 
-.footer .wp-block-navigation a:where(:not(.wp-element-button)):active {
+.footer .footer__navigation a:where(:not(.wp-element-button)):active {
 	text-decoration: underline;
 }
 
@@ -1211,84 +1211,66 @@ PATTERNS
 -------------------------------------------------------*/
 
 /*-------------------------------------------------------
+Pattern "Page header"
+-------------------------------------------------------*/
+
+.page-header > .wp-block-columns {
+	gap: 0 var(--wp--style--block-gap);
+}
+
+.page-header .page-header__small-note {
+	max-width: 350px;
+}
+
+/*-------------------------------------------------------
 Pattern "Who we are"
 -------------------------------------------------------*/
 
-.pattern-who-we-are .pattern-who-we-are--container {
-	padding-right: var(--wp--style--root--padding-right);
-	padding-left: var(--wp--style--root--padding-left);
+.section--who-we-are .wp-block-columns {
+	gap: 0 var(--wp--style--block-gap);
 }
 
-.pattern-who-we-are .wp-block-columns {
-	gap: 0 calc(var(--wp--style--block-gap) * 1.75);
-}
-
-.pattern-who-we-are .section-small-text {
-	max-width: 320px;
+.section--who-we-are .section__small-note {
+	max-width: 350px;
 }
 
 /*-------------------------------------------------------
 Pattern "What we are doing"
 -------------------------------------------------------*/
 
-.pattern-what-we-are-doing {
+.section--what-we-are-doing {
 	padding-right: var(--wp--style--root--padding-right);
 	padding-left: var(--wp--style--root--padding-left);
 }
 
-.pattern-what-we-are-doing > .wp-block-group {
-	padding-left: 0;
-	padding-right: 0;
-}
-
-.pattern-what-we-are-doing .wp-block-columns {
-	gap: 0 calc(var(--wp--style--block-gap) * 1.75);
+.section--what-we-are-doing .wp-block-columns {
+	gap: 0 var(--wp--style--block-gap);
 }
 
 /*-------------------------------------------------------
 Pattern "Featured projects"
 -------------------------------------------------------*/
 
-.pattern-featured-projects .pattern-featured-projects--container {
-	padding-right: var(--wp--style--root--padding-right);
-	padding-left: var(--wp--style--root--padding-left);
-}
-
-.pattern-featured-projects .section-header .wp-block-columns {
-	gap: 0 calc(var(--wp--style--block-gap) * 1.75);
-}
-
-.pattern-featured-projects .section-body .wp-block-columns {
-	gap: var(--wp--style--block-gap) calc(var(--wp--style--block-gap) * 1.75);
-}
-
-.pattern-featured-projects .section-small-text {
-	max-width: 320px;
-}
-
-.pattern-featured-projects .project-card-body {
-	position: sticky;
-	top: var(--wp--preset--spacing--40);
-	max-width: max(600px, 90%);
-	margin-left: auto;
+.section--featured-projects .section__small-note {
+	max-width: 350px;
 }
 
 /*
 Project card featured image
 */
 
-.pattern-featured-projects .project-card-featured-image:not(.block-editor-block-list__block) {
+.project-card__featured-image:not(.block-editor-block-list__block) {
 	position: relative;
 	padding-top: 125%;
 	overflow: hidden;
 	border-radius: 0.5em;
 }
 
-.pattern-featured-projects .project-card-featured-image:not(.block-editor-block-list__block) a {
+.project-card__featured-image:not(.block-editor-block-list__block) a {
 	height: 100%;
 }
 
-.pattern-featured-projects .project-card-featured-image:not(.block-editor-block-list__block) img {
+.project-card__featured-image:not(.block-editor-block-list__block) img {
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -1299,19 +1281,30 @@ Project card featured image
 	transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
 }
 
-.pattern-featured-projects .project-card-featured-image:not(.block-editor-block-list__block):hover img {
+.project-card__featured-image:not(.block-editor-block-list__block):hover img {
 	transform: scale(1.05);
+}
+
+/*
+Project card body
+*/
+
+.project-card__body {
+	position: sticky;
+	top: var(--wp--preset--spacing--40);
+	max-width: max(500px, 90%);
+	margin-left: auto;
 }
 
 /*
 Project card title
 */
 
-.pattern-featured-projects .project-card-title {
+.project-card__title {
 	line-height: 1.1;
 }
 
-.pattern-featured-projects .project-card-title a {
+.project-card__title a {
 	text-underline-offset: 0.175em;
 }
 
@@ -1319,23 +1312,23 @@ Project card title
 Project card content
 */
 
-.pattern-featured-projects .project-card-content {
-	max-width: max(480px, 75%);
+.project-card__content {
+	max-width: max(480px, 75%) !important;
 }
 
 /*
 Project card link "more"
 */
 
-.pattern-featured-projects .project-card-more-link {
+.project-card__more-link {
 	padding-bottom: var(--wp--preset--spacing--10);
 }
 
-.pattern-featured-projects .project-card-more-link a {
+.project-card__more-link a {
 	text-decoration: none;
 }
 
-.pattern-featured-projects .project-card-more-link a .link-text {
+.project-card__more-link a .link-text {
 	vertical-align: middle;
 	font-weight: 500;
 	text-decoration: underline;
@@ -1345,21 +1338,21 @@ Project card link "more"
 	transition: all 0.25s ease-in-out;
 }
 
-.pattern-featured-projects .project-card-more-link a:hover .link-text,
-.pattern-featured-projects .project-card-more-link a:focus .link-text,
-.pattern-featured-projects .project-card-more-link a:active .link-text {
+.project-card__more-link a:hover .link-text,
+.project-card__more-link a:focus .link-text,
+.project-card__more-link a:active .link-text {
 	text-decoration-color: var(--wp--preset--color--contrast);
 }
 
-.pattern-featured-projects .project-card-more-link a:focus .link-text {
+.project-card__more-link a:focus .link-text {
 	text-decoration: dashed underline;
 }
 
-.pattern-featured-projects .project-card-more-link a:active .link-text {
+.project-card__more-link a:active .link-text {
 	text-decoration: underline;
 }
 
-.pattern-featured-projects .project-card-more-link a .link-icon {
+.project-card__more-link a .link-icon {
 	display: inline-block;
 	position: relative;
 	margin-left: 0.5rem;
@@ -1368,13 +1361,13 @@ Project card link "more"
 	transition: all 0.25s ease-in-out;
 }
 
-.pattern-featured-projects .project-card-more-link a:hover .link-icon,
-.pattern-featured-projects .project-card-more-link a:focus .link-icon,
-.pattern-featured-projects .project-card-more-link a:active .link-icon {
+.project-card__more-link a:hover .link-icon,
+.project-card__more-link a:focus .link-icon,
+.project-card__more-link a:active .link-icon {
 	transform: translateX(1rem);
 }
 
-.pattern-featured-projects .project-card-more-link a .link-icon::after {
+.project-card__more-link a .link-icon::after {
 	content: "";
 	position: absolute;
 	display: block;
@@ -1387,24 +1380,24 @@ Project card link "more"
 	transition: all 0.25s ease-in-out;
 }
 
-.pattern-featured-projects .project-card-more-link a:hover .link-icon::after,
-.pattern-featured-projects .project-card-more-link a:focus .link-icon::after,
-.pattern-featured-projects .project-card-more-link a:active .link-icon::after {
+.project-card__more-link a:hover .link-icon::after,
+.project-card__more-link a:focus .link-icon::after,
+.project-card__more-link a:active .link-icon::after {
 	transform: scale(2.5);
 	background-color: var(--wp--preset--color--contrast-secondary-bg);
 }
 
 @media only screen and (max-width: 781px) {
-	.pattern-featured-projects .project-card-featured-image {
+	.project-card__featured-image {
 		margin-bottom: var(--wp--preset--spacing--10);
 	}
 
-	.pattern-featured-projects .project-card-body {
+	.project-card__body {
 		margin-left: 0;
 		margin-right: auto;
 	}
 
-	.pattern-featured-projects .project-card-more-link {
+	.project-card__more-link {
 		margin-top: var(--wp--preset--spacing--20) !important;
 		padding-bottom: 0;
 	}
@@ -1414,17 +1407,12 @@ Project card link "more"
 Pattern "Services"
 -------------------------------------------------------*/
 
-.pattern-services {
+.section--services {
 	padding-right: var(--wp--style--root--padding-right);
 	padding-left: var(--wp--style--root--padding-left);
 }
 
-.pattern-services .pattern-services--container {
-	padding-left: 0;
-	padding-right: 0;
-}
-
-.pattern-services .pattern-services--items .wp-block-column > .wp-block-group {
+.services-list__item {
 	height: 100%;
 }
 
@@ -1432,13 +1420,13 @@ Pattern "Services"
 "Services" more link
 */
 
-.pattern-services .more-link {
+.services-list__item--more .more-link {
 	display: flex;
 	justify-content: flex-end;
 	line-height: 1;
 }
 
-.pattern-services .more-link a {
+.services-list__item--more .more-link a {
 	display: inline-block;
 	padding: 1rem;
 	color: var(--wp--preset--color--contrast);
@@ -1447,71 +1435,28 @@ Pattern "Services"
 	border-radius: 50%;
 }
 
-.pattern-services .more-link a:hover,
-.pattern-services .more-link a:focus,
-.pattern-services .more-link a:active {
+.services-list__item--more .more-link a:hover,
+.services-list__item--more .more-link a:focus,
+.services-list__item--more .more-link a:active {
 	color: var(--wp--preset--color--base);
 	background-color: var(--wp--preset--color--contrast);
 }
 
-.pattern-services .more-link a > span {
+.services-list__item--more .more-link a > span {
 	display: block;
 }
 
 @media only screen and (max-width: 781px) {
-	.pattern-services .pattern-services--content .wp-block-column:empty {
+	.services-list .wp-block-column:empty {
 		display: none;
 	}
-}
-
-/*-------------------------------------------------------
-Pattern "Keep in touch"
--------------------------------------------------------*/
-
-.pattern-keep-in-touch .pattern-keep-in-touch--container {
-	padding-right: var(--wp--style--root--padding-right);
-	padding-left: var(--wp--style--root--padding-left);
-}
-
-.pattern-keep-in-touch .wp-block-columns {
-	gap: var(--wp--style--block-gap) calc(var(--wp--style--block-gap) * 1.75);
-}
-
-.pattern-keep-in-touch a {
-	color: var(--wp--preset--color--primary);
-	text-decoration-color: var(--wp--preset--color--primary) !important;
-	text-underline-offset: 0.125em;
-}
-
-.pattern-keep-in-touch a:hover {
-	text-decoration-color: transparent !important;
-}
-
-/*-------------------------------------------------------
-Pattern "Page header"
--------------------------------------------------------*/
-
-.page-header > .wp-block-columns {
-	gap: 0 calc(var(--wp--style--block-gap) * 1.75);
-}
-
-.page-header .page-header--small-note {
-	max-width: 350px;
-}
-
-/*-------------------------------------------------------
-Pattern "Contacts"
--------------------------------------------------------*/
-
-.pattern-contacts .wp-block-columns {
-	gap: var(--wp--style--block-gap) calc(var(--wp--style--block-gap) * 1.75);
 }
 
 /*-------------------------------------------------------
 Pattern "Testimonials"
 -------------------------------------------------------*/
 
-.pattern-testimonials .pattern-testimonials--item {
+.section--testimonials .testimonials-list__item {
 	height: 100%;
 }
 
@@ -1519,13 +1464,13 @@ Pattern "Testimonials"
 "Testimonials" more link
 */
 
-.pattern-testimonials .more-link {
+.section--testimonials .more-link {
 	display: flex;
 	justify-content: flex-end;
 	line-height: 1;
 }
 
-.pattern-testimonials .more-link a {
+.section--testimonials .more-link a {
 	display: inline-block;
 	padding: 1rem;
 	color: var(--wp--preset--color--contrast);
@@ -1534,22 +1479,47 @@ Pattern "Testimonials"
 	border-radius: 50%;
 }
 
-.pattern-testimonials .more-link a:hover,
-.pattern-testimonials .more-link a:focus,
-.pattern-testimonials .more-link a:active {
+.section--testimonials .more-link a:hover,
+.section--testimonials .more-link a:focus,
+.section--testimonials .more-link a:active {
 	color: var(--wp--preset--color--base);
 	background-color: var(--wp--preset--color--contrast);
 }
 
-.pattern-testimonials .more-link a > span {
+.section--testimonials .more-link a > span {
 	display: block;
+}
+
+/*-------------------------------------------------------
+Pattern "Keep in touch"
+-------------------------------------------------------*/
+
+.section--keep-in-touch a {
+	color: var(--wp--preset--color--primary);
+	text-decoration-color: var(--wp--preset--color--primary) !important;
+	text-underline-offset: 0.125em;
+}
+
+.section--keep-in-touch a:hover,
+.section--keep-in-touch a:focus,
+.section--keep-in-touch a:active {
+	text-decoration-color: transparent !important;
+}
+
+/*-------------------------------------------------------
+Pattern "Our history"
+-------------------------------------------------------*/
+
+.section--our-history .wp-block-cover {
+	margin-left: calc(var(--wp--style--root--padding-right) * -1);
+	margin-right: calc(var(--wp--style--root--padding-right) * -1);
 }
 
 /*-------------------------------------------------------
 Pattern "Our awards"
 -------------------------------------------------------*/
 
-.pattern__our-awards {
+.section--our-awards {
 	padding-right: var(--wp--style--root--padding-right);
 	padding-left: var(--wp--style--root--padding-left);
 }
@@ -1558,13 +1528,13 @@ Pattern "Our awards"
 "Our awards" more link
 */
 
-.pattern__our-awards .more-link {
+.section--our-awards .more-link {
 	display: flex;
 	justify-content: flex-end;
 	line-height: 1;
 }
 
-.pattern__our-awards .more-link a {
+.section--our-awards .more-link a {
 	display: inline-block;
 	padding: 0.75rem;
 	color: var(--wp--preset--color--base);
@@ -1573,12 +1543,12 @@ Pattern "Our awards"
 	border-radius: 50%;
 }
 
-.pattern__our-awards .more-link a:hover {
+.section--our-awards .more-link a:hover {
 	color: var(--wp--preset--color--contrast);
 	background-color: var(--wp--preset--color--base);
 }
 
-.pattern__our-awards .more-link a > span {
+.section--our-awards .more-link a > span {
 	display: block;
 }
 
@@ -1586,7 +1556,7 @@ Pattern "Our awards"
 Pattern "Our team"
 -------------------------------------------------------*/
 
-.pattern__our-team {
+.section--our-team {
 	padding-right: var(--wp--style--root--padding-right);
 	padding-left: var(--wp--style--root--padding-left);
 }
@@ -1595,24 +1565,24 @@ Pattern "Our team"
 Pattern "Contact us"
 -------------------------------------------------------*/
 
-.pattern__contact-us .contact-link a {
+.section--contact-us .contact-link a {
 	text-decoration-color: var(--wp--preset--color--contrast-border) !important;
 	text-underline-offset: 0.1em;
 }
 
-.pattern__contact-us .contact-link a:hover,
-.pattern__contact-us .contact-link a:focus,
-.pattern__contact-us .contact-link a:active {
+.section--contact-us .contact-link a:hover,
+.section--contact-us .contact-link a:focus,
+.section--contact-us .contact-link a:active {
 	text-decoration-color: var(--wp--preset--color--contrast) !important;
 }
 
-.pattern__contact-us .contact-icon {
+.section--contact-us .contact-icon {
 	display: flex;
 	justify-content: flex-end;
 	line-height: 1;
 }
 
-.pattern__contact-us .contact-icon a {
+.section--contact-us .contact-icon a {
 	display: inline-block;
 	padding: 0.75rem;
 	color: var(--wp--preset--color--contrast);
@@ -1621,15 +1591,15 @@ Pattern "Contact us"
 	border-radius: 50%;
 }
 
-.pattern__contact-us .contact-icon a > span {
+.section--contact-us .contact-icon a > span {
 	display: block;
 	font-size: var(--wp--preset--font-size--xxxxx-large);
 	transform: rotate(-45deg);
 	transition: all 0.25s ease-in-out;
 }
 
-.pattern__contact-us .contact-icon a:hover > span,
-.pattern__contact-us .contact-icon a:focus > span,
-.pattern__contact-us .contact-icon a:active > span {
+.section--contact-us .contact-icon a:hover > span,
+.section--contact-us .contact-icon a:focus > span,
+.section--contact-us .contact-icon a:active > span {
 	transform: rotate(0);
 }

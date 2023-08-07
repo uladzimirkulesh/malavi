@@ -6,8 +6,8 @@
  * Keywords: Our agency
  */
 ?>
-<!-- wp:group {"tagName":"section","align":"wide","className":"pattern__our-agency","layout":{"type":"default"}} -->
-<section class="wp-block-group alignwide pattern__our-agency" id="pattern-our-agency">
+<!-- wp:group {"tagName":"section","align":"wide","className":"section section--our-agency","layout":{"type":"default"}} -->
+<section class="wp-block-group alignwide section section--our-agency" id="section-our-agency">
 	<!-- wp:columns {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}}} -->
 	<div class="wp-block-columns" style="margin-bottom:var(--wp--preset--spacing--50)">
 		<!-- wp:column {"width":"75%"} -->
@@ -55,8 +55,8 @@
 
 	<!-- wp:group {"layout":{"type":"default"}} -->
 	<div class="wp-block-group">
-		<!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-		<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ) ?>/assets/images/our-agency-img.jpg" alt=""/></figure>
+		<!-- wp:image -->
+		<figure class="wp-block-image"><img src="<?php echo esc_url( get_template_directory_uri() ) ?>/assets/images/our-agency-img.jpg" alt=""/></figure>
 		<!-- /wp:image -->
 	</div>
 	<!-- /wp:group -->

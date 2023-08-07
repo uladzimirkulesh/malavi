@@ -6,8 +6,8 @@
  * Block Types: core/query
  */
 ?>
-<!-- wp:query {"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false},"displayLayout":{"type":"flex","columns":2},"align":"full","layout":{"type":"default"}} -->
-<div class="wp-block-query alignfull">
+<!-- wp:query {"queryId":1,"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false},"displayLayout":{"type":"flex","columns":2},"align":"wide","layout":{"type":"default"}} -->
+<div class="wp-block-query alignwide">
 	<!-- wp:post-template -->
 		<!-- wp:post-featured-image {"isLink":true,"width":"100%","align":"wide"} /-->
 

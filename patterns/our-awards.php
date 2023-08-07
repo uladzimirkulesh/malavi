@@ -1,15 +1,15 @@
 <?php
 /**
  * Title: Our awards
- * Slug: silence/our-goawardsals
+ * Slug: silence/our-awards
  * Categories: text, silence
  * Keywords: Our awards
  */
 ?>
-<!-- wp:group {"tagName":"section","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"backgroundColor":"contrast","className":"pattern__our-awards","layout":{"type":"default"}} -->
-<section class="wp-block-group alignfull pattern__our-awards has-contrast-background-color has-background" id="pattern-our-awards" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
-	<!-- wp:group {"style":{"spacing":{"padding":{"right":"0","left":"0"}}},"layout":{"type":"default"}} -->
-	<div class="wp-block-group" style="padding-right:0;padding-left:0">
+<!-- wp:group {"tagName":"section","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"backgroundColor":"contrast","textColor":"base","className":"section section--our-awards","layout":{"type":"constrained"}} -->
+<section class="wp-block-group alignfull section section--our-awards has-base-color has-contrast-background-color has-text-color has-background" id="section-our-awards" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+	<!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
+	<div class="wp-block-group alignwide">
 		<!-- wp:separator {"backgroundColor":"base-border","className":"is-style-wide"} -->
 		<hr class="wp-block-separator has-text-color has-base-border-color has-alpha-channel-opacity has-base-border-background-color has-background is-style-wide"/>
 		<!-- /wp:separator -->

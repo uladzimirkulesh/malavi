@@ -6,10 +6,10 @@
  * Keywords: What we are doing
  */
 ?>
-<!-- wp:group {"tagName":"section","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}},"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base","className":"pattern-what-we-are-doing theme-contrast","layout":{"type":"default"}} -->
-<section class="wp-block-group alignfull pattern-what-we-are-doing theme-contrast has-base-color has-contrast-background-color has-text-color has-background has-link-color" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
-	<!-- wp:group {"layout":{"type":"default"}} -->
-	<div class="wp-block-group">
+<!-- wp:group {"tagName":"section","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"backgroundColor":"contrast","textColor":"base","className":"section section--what-we-are-doing","layout":{"type":"constrained"}} -->
+<section class="wp-block-group alignfull section section--what-we-are-doing has-base-color has-contrast-background-color has-text-color has-background" id="section-what-we-are-doing" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+	<!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
+	<div class="wp-block-group alignwide">
 		<!-- wp:columns {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}}} -->
 		<div class="wp-block-columns" style="margin-bottom:var(--wp--preset--spacing--50)">
 			<!-- wp:column {"width":"75%"} -->
@@ -47,8 +47,8 @@
 
 			<!-- wp:column -->
 			<div class="wp-block-column">
-				<!-- wp:paragraph {"fontSize":"large"} -->
-				<p class="has-large-font-size"><?php echo esc_html_x( 'Developing digital products since 2015. We help bring ideas to life and create digital products that work.', 'Content for "What we are doing" pattern', 'silence' ); ?></p>
+				<!-- wp:paragraph {"textColor":"base","fontSize":"large"} -->
+				<p class="has-base-color has-text-color has-large-font-size"><?php echo esc_html_x( 'Developing digital products since 2015. We help bring ideas to life and create digital products that work.', 'Content for "What we are doing" pattern', 'silence' ); ?></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:column -->

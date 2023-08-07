@@ -25,8 +25,8 @@
 
 		<!-- wp:column {"width":"25%","style":{"spacing":{"padding":{"top":"var:preset|spacing|20"}}}} -->
 		<div class="wp-block-column" style="padding-top:var(--wp--preset--spacing--20);flex-basis:25%">
-			<!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.5"}},"textColor":"contrast-secondary-text","className":"page-header--small-note"} -->
-			<p class="page-header--small-note has-contrast-secondary-text-color has-text-color" style="line-height:1.5"><?php echo esc_html_x( '[ See how software is developed and how it can help your business compete. Discover software development innovations and technologies. ]', 'Small text for "Page header" pattern', 'silence' ); ?></p>
+			<!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.5"}},"textColor":"contrast-secondary-text","className":"page-header__small-note"} -->
+			<p class="page-header__small-note has-contrast-secondary-text-color has-text-color" style="line-height:1.5"><?php echo esc_html_x( '[ See how software is developed and how it can help your business compete. Discover software development innovations and technologies. ]', 'Small text for "Page header" pattern', 'silence' ); ?></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:column -->
