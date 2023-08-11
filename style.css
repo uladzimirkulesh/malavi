@@ -7,7 +7,7 @@ Description: Silence is an easy-to-use WordPress theme inspired by simplicity. W
 Requires at least: 6.1
 Tested up to: 6.2
 Requires PHP: 5.6
-Version: 1.02194
+Version: 1.02195
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 Text Domain: silence
@@ -698,20 +698,6 @@ Remove margin before template parts
 }
 
 /*
-Fix row spacings
-*/
-
-.has-global-padding > .row.alignfull {
-	margin-left: 0;
-	margin-right: 0;
-}
-
-.has-global-padding > .row.alignfull > * {
-	padding-left: 0;
-	padding-right: 0;
-}
-
-/*
 Add more space before headings
 */
 
@@ -859,19 +845,15 @@ Submenu container
 Loop
 -------------------------------------------------------*/
 
-.wp-block-query .wp-block-post-template.is-flex-container.columns-2 {
-	gap: calc(var(--wp--style--block-gap) * 2.5) calc(var(--wp--style--block-gap) * 1.75);
-}
-
-@media (min-width: 600px) {
-	.wp-block-query .wp-block-post-template.is-flex-container.columns-2 > li {
-		width: 100%;
+@media (min-width: 960px) {
+	.wp-block-query .wp-block-post-template.columns-2 {
+		gap: calc(var(--wp--style--block-gap) * 2.5) calc(var(--wp--style--block-gap) * 1.75);
 	}
 }
 
-@media (min-width: 782px) {
-	.wp-block-query .wp-block-post-template.is-flex-container.columns-2 > li {
-		width: calc((100% - (var(--wp--style--block-gap) * 1.75)) / 2 - 0.1px);
+@media (max-width: 782px) {
+	.wp-block-query .wp-block-post-template.columns-2 {
+		grid-template-columns: 1fr;
 	}
 }
 
@@ -1239,8 +1221,8 @@ Pattern "What we are doing"
 -------------------------------------------------------*/
 
 .section--what-we-are-doing {
-	padding-right: var(--wp--style--root--padding-right);
-	padding-left: var(--wp--style--root--padding-left);
+	padding-right: var(--wp--style--root--padding-right) !important;
+	padding-left: var(--wp--style--root--padding-left) !important;
 }
 
 .section--what-we-are-doing .wp-block-columns {
@@ -1408,8 +1390,8 @@ Pattern "Services"
 -------------------------------------------------------*/
 
 .section--services {
-	padding-right: var(--wp--style--root--padding-right);
-	padding-left: var(--wp--style--root--padding-left);
+	padding-right: var(--wp--style--root--padding-right) !important;
+	padding-left: var(--wp--style--root--padding-left) !important;
 }
 
 .services-list__item {
@@ -1520,8 +1502,8 @@ Pattern "Our awards"
 -------------------------------------------------------*/
 
 .section--our-awards {
-	padding-right: var(--wp--style--root--padding-right);
-	padding-left: var(--wp--style--root--padding-left);
+	padding-right: var(--wp--style--root--padding-right) !important;
+	padding-left: var(--wp--style--root--padding-left) !important;
 }
 
 /*
@@ -1557,8 +1539,8 @@ Pattern "Our team"
 -------------------------------------------------------*/
 
 .section--our-team {
-	padding-right: var(--wp--style--root--padding-right);
-	padding-left: var(--wp--style--root--padding-left);
+	padding-right: var(--wp--style--root--padding-right) !important;
+	padding-left: var(--wp--style--root--padding-left) !important;
 }
 
 /*-------------------------------------------------------

@@ -731,10 +731,9 @@
 			},
 			"core/separator": {
 				"border": {
-					"width": "0 0 1px 0",
-					"color": "var(--wp--preset--color--contrast-border)"
-				},
-				"css": "&.alignfull.is-style-wide {\n\tmargin-left: 0;\n\tmargin-right: 0;\n\t}"
+					"width": "0 0 1px 0 !important",
+					"color": "var(--wp--preset--color--contrast-border) !important"
+				}
 			},
 			"core/image": {
 				"border": {
@@ -749,7 +748,8 @@
 							"fontSize": "var(--wp--preset--font-size--small)"
 						}
 					}
-				}
+				},
+				"css": "& figcaption {\n\ttext-align: center;\n\t}"
 			},
 			"core/code": {
 				"color": {
