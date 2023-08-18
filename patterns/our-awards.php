@@ -10,8 +10,8 @@
 <section class="wp-block-group alignfull section section--our-awards has-base-color has-contrast-background-color has-text-color has-background" id="section-our-awards" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
 	<!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
 	<div class="wp-block-group alignwide">
-		<!-- wp:separator {"backgroundColor":"base-border","className":"is-style-wide"} -->
-		<hr class="wp-block-separator has-text-color has-base-border-color has-alpha-channel-opacity has-base-border-background-color has-background is-style-wide"/>
+		<!-- wp:separator {"backgroundColor":"base-borders","className":"is-style-wide"} -->
+		<hr class="wp-block-separator has-text-color has-base-borders-color has-alpha-channel-opacity has-base-borders-background-color has-background is-style-wide"/>
 		<!-- /wp:separator -->
 
 		<!-- wp:columns -->
@@ -55,8 +55,8 @@
 		</div>
 		<!-- /wp:columns -->
 
-		<!-- wp:separator {"backgroundColor":"base-border","className":"is-style-wide"} -->
-		<hr class="wp-block-separator has-text-color has-base-border-color has-alpha-channel-opacity has-base-border-background-color has-background is-style-wide"/>
+		<!-- wp:separator {"backgroundColor":"base-borders","className":"is-style-wide"} -->
+		<hr class="wp-block-separator has-text-color has-base-borders-color has-alpha-channel-opacity has-base-borders-background-color has-background is-style-wide"/>
 		<!-- /wp:separator -->
 
 		<!-- wp:columns -->
@@ -95,8 +95,8 @@
 		</div>
 		<!-- /wp:columns -->
 
-		<!-- wp:separator {"backgroundColor":"base-border","className":"is-style-wide"} -->
-		<hr class="wp-block-separator has-text-color has-base-border-color has-alpha-channel-opacity has-base-border-background-color has-background is-style-wide"/>
+		<!-- wp:separator {"backgroundColor":"base-borders","className":"is-style-wide"} -->
+		<hr class="wp-block-separator has-text-color has-base-borderss-color has-alpha-channel-opacity has-base-borders-background-color has-background is-style-wide"/>
 		<!-- /wp:separator -->
 
 		<!-- wp:columns -->
@@ -135,8 +135,8 @@
 		</div>
 		<!-- /wp:columns -->
 
-		<!-- wp:separator {"backgroundColor":"base-border","className":"is-style-wide"} -->
-		<hr class="wp-block-separator has-text-color has-base-border-color has-alpha-channel-opacity has-base-border-background-color has-background is-style-wide"/>
+		<!-- wp:separator {"backgroundColor":"base-borders","className":"is-style-wide"} -->
+		<hr class="wp-block-separator has-text-color has-base-borders-color has-alpha-channel-opacity has-base-borders-background-color has-background is-style-wide"/>
 		<!-- /wp:separator -->
 
 		<!-- wp:columns -->
@@ -175,8 +175,8 @@
 		</div>
 		<!-- /wp:columns -->
 
-		<!-- wp:separator {"backgroundColor":"base-border","className":"is-style-wide"} -->
-		<hr class="wp-block-separator has-text-color has-base-border-color has-alpha-channel-opacity has-base-border-background-color has-background is-style-wide"/>
+		<!-- wp:separator {"backgroundColor":"base-borders","className":"is-style-wide"} -->
+		<hr class="wp-block-separator has-text-color has-base-borders-color has-alpha-channel-opacity has-base-borders-background-color has-background is-style-wide"/>
 		<!-- /wp:separator -->
 
 		<!-- wp:columns -->
@@ -215,8 +215,8 @@
 		</div>
 		<!-- /wp:columns -->
 
-		<!-- wp:separator {"backgroundColor":"base-border","className":"is-style-wide"} -->
-		<hr class="wp-block-separator has-text-color has-base-border-color has-alpha-channel-opacity has-base-border-background-color has-background is-style-wide"/>
+		<!-- wp:separator {"backgroundColor":"base-borders","className":"is-style-wide"} -->
+		<hr class="wp-block-separator has-text-color has-base-borders-color has-alpha-channel-opacity has-base-borders-background-color has-background is-style-wide"/>
 		<!-- /wp:separator -->
 
 		<!-- wp:columns -->
@@ -255,8 +255,8 @@
 		</div>
 		<!-- /wp:columns -->
 
-		<!-- wp:separator {"backgroundColor":"base-border","className":"is-style-wide"} -->
-		<hr class="wp-block-separator has-text-color has-base-border-color has-alpha-channel-opacity has-base-border-background-color has-background is-style-wide"/>
+		<!-- wp:separator {"backgroundColor":"base-borders","className":"is-style-wide"} -->
+		<hr class="wp-block-separator has-text-color has-base-borders-color has-alpha-channel-opacity has-base-borders-background-color has-background is-style-wide"/>
 		<!-- /wp:separator -->
 
 		<!-- wp:columns -->
@@ -295,8 +295,8 @@
 		</div>
 		<!-- /wp:columns -->
 
-		<!-- wp:separator {"backgroundColor":"base-border","className":"is-style-wide"} -->
-		<hr class="wp-block-separator has-text-color has-base-border-color has-alpha-channel-opacity has-base-border-background-color has-background is-style-wide"/>
+		<!-- wp:separator {"backgroundColor":"base-borders","className":"is-style-wide"} -->
+		<hr class="wp-block-separator has-text-color has-base-borders-color has-alpha-channel-opacity has-base-borders-background-color has-background is-style-wide"/>
 		<!-- /wp:separator -->
 
 		<!-- wp:columns -->
@@ -335,8 +335,8 @@
 		</div>
 		<!-- /wp:columns -->
 
-		<!-- wp:separator {"backgroundColor":"base-border","className":"is-style-wide"} -->
-		<hr class="wp-block-separator has-text-color has-base-border-color has-alpha-channel-opacity has-base-border-background-color has-background is-style-wide"/>
+		<!-- wp:separator {"backgroundColor":"base-borders","className":"is-style-wide"} -->
+		<hr class="wp-block-separator has-text-color has-base-borders-color has-alpha-channel-opacity has-base-borders-background-color has-background is-style-wide"/>
 		<!-- /wp:separator -->
 
 		<!-- wp:columns {"style":{"spacing":{"margin":{"top":"var:preset|spacing|50"}}}} -->

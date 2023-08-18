@@ -26,8 +26,8 @@
 		</div>
 		<!-- /wp:columns -->
 
-		<!-- wp:separator {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}},"backgroundColor":"base-border","className":"is-style-wide"} -->
-		<hr class="wp-block-separator has-text-color has-base-border-color has-alpha-channel-opacity has-base-border-background-color has-background is-style-wide" style="margin-bottom:var(--wp--preset--spacing--50)"/>
+		<!-- wp:separator {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}},"backgroundColor":"base-borders","className":"is-style-wide"} -->
+		<hr class="wp-block-separator has-text-color has-base-borders-color has-alpha-channel-opacity has-base-borders-background-color has-background is-style-wide" style="margin-bottom:var(--wp--preset--spacing--50)"/>
 		<!-- /wp:separator -->
 
 		<!-- wp:columns {"className":"services-list"} -->

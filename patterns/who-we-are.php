@@ -26,7 +26,7 @@
 		<!-- wp:column {"width":"25%"} -->
 		<div class="wp-block-column" style="flex-basis:25%">
 			<!-- wp:paragraph {"style":{"spacing":{"padding":{"top":"var:preset|spacing|30"}},"typography":{"lineHeight":"1.5"}},"textColor":"contrast-secondary-text","className":"section__small-note"} -->
-			<p class="section__small-note has-contrast-secondary-text-color has-text-color" style="padding-top:var(--wp--preset--spacing--30);line-height:1.5"><?php echo esc_html_x( '[ We are obsessed with creativity — challenging what is, while defining what comes next. ]', 'Small text for "Who we are" pattern', 'silence' ); ?></p>
+			<p class="section__small-note has-contrast-secondary-text-color has-text-color" style="padding-top:var(--wp--preset--spacing--30);line-height:1.5"><?php echo esc_html_x( 'We are obsessed with creativity — challenging what is, while defining what comes next.', 'Small text for "Who we are" pattern', 'silence' ); ?></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:column -->

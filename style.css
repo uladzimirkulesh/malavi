@@ -7,7 +7,7 @@ Description: Silence is an easy-to-use WordPress theme inspired by simplicity. W
 Requires at least: 6.1
 Tested up to: 6.2
 Requires PHP: 5.6
-Version: 1.02195
+Version: 1.03
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 Text Domain: silence
@@ -436,7 +436,7 @@ input[type="datetime"]:focus,
 input[type="datetime-local"]:focus,
 input[type="color"]:focus,
 textarea:focus {
-	border-color: var(--wp--preset--color--contrast-border);
+	border-color: var(--wp--preset--color--contrast-borders);
 	outline: none;
 }
 
@@ -505,7 +505,7 @@ select:hover {
 }
 
 select:focus {
-	border-color: var(--wp--preset--color--contrast-border);
+	border-color: var(--wp--preset--color--contrast-borders);
 	outline: none;
 }
 
@@ -909,7 +909,7 @@ Editor post title
 	margin-left: var(--wp--style--root--padding-right) !important;
 	margin-right: var(--wp--style--root--padding-right) !important;
 	padding-bottom: var(--wp--preset--spacing--40);
-	border-bottom: 1px solid var(--wp--preset--color--contrast-border);
+	border-bottom: 1px solid var(--wp--preset--color--contrast-borders);
 }
 
 /*
@@ -1030,7 +1030,7 @@ Comments pagination
 	gap: 0.75rem !important;
 	padding-top: var(--wp--preset--spacing--10);
 	font-size: var(--wp--preset--font-size--small);
-	border-top: 1px solid var(--wp--preset--color--contrast-border);
+	border-top: 1px solid var(--wp--preset--color--contrast-borders);
 }
 
 .wp-block-comments-pagination > .wp-block-comments-pagination-next,
@@ -1413,7 +1413,7 @@ Pattern "Services"
 	padding: 1rem;
 	color: var(--wp--preset--color--contrast);
 	text-decoration: none;
-	background-color: var(--wp--preset--color--contrast-border);
+	background-color: var(--wp--preset--color--contrast-borders);
 	border-radius: 50%;
 }
 
@@ -1457,7 +1457,7 @@ Pattern "Testimonials"
 	padding: 1rem;
 	color: var(--wp--preset--color--contrast);
 	text-decoration: none;
-	background-color: var(--wp--preset--color--contrast-border);
+	background-color: var(--wp--preset--color--contrast-borders);
 	border-radius: 50%;
 }
 
@@ -1521,7 +1521,7 @@ Pattern "Our awards"
 	padding: 0.75rem;
 	color: var(--wp--preset--color--base);
 	text-decoration: none;
-	background-color: var(--wp--preset--color--base-border);
+	background-color: var(--wp--preset--color--base-borders);
 	border-radius: 50%;
 }
 
@@ -1548,7 +1548,7 @@ Pattern "Contact us"
 -------------------------------------------------------*/
 
 .section--contact-us .contact-link a {
-	text-decoration-color: var(--wp--preset--color--contrast-border) !important;
+	text-decoration-color: var(--wp--preset--color--contrast-borders) !important;
 	text-underline-offset: 0.1em;
 }
 
@@ -1584,4 +1584,17 @@ Pattern "Contact us"
 .section--contact-us .contact-icon a:focus > span,
 .section--contact-us .contact-icon a:active > span {
 	transform: rotate(0);
+}
+
+/*-------------------------------------------------------
+Pattern "Contact Page"
+-------------------------------------------------------*/
+
+.section--contacts-page .contacts-img {
+	height: 100%;
+}
+
+.section--contacts-page .contacts-img img {
+	height: 100%;
+	object-fit: cover;
 }

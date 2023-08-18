@@ -44,7 +44,7 @@
 				{
 					"color": "rgba(var(--wp--custom--color--base), 0.12)",
 					"name": "Base Border",
-					"slug": "base-border"
+					"slug": "base-borders"
 				},
 				{
 					"color": "rgba(var(--wp--custom--color--base), 0.045)",
@@ -74,7 +74,7 @@
 				{
 					"color": "rgba(var(--wp--custom--color--contrast), 0.2)",
 					"name": "Contrast Border",
-					"slug": "contrast-border"
+					"slug": "contrast-borders"
 				},
 				{
 					"color": "rgba(var(--wp--custom--color--contrast), 0.07)",

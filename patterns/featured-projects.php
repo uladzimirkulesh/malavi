@@ -26,7 +26,7 @@
 		<!-- wp:column {"verticalAlignment":"top","width":"25%"} -->
 		<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:25%">
 			<!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.5"},"spacing":{"padding":{"top":"var:preset|spacing|20"}}},"textColor":"contrast-secondary-text","className":"section__small-note"} -->
-			<p class="section__small-note has-contrast-secondary-text-color has-text-color" style="padding-top:var(--wp--preset--spacing--20);line-height:1.5"><?php echo esc_html_x( '[ Simplicity is not a style, it is more a philosophy about how to design something more effectively. ]', 'Small text for "Featured projects" pattern', 'silence' ); ?></p>
+			<p class="section__small-note has-contrast-secondary-text-color has-text-color" style="padding-top:var(--wp--preset--spacing--20);line-height:1.5"><?php echo esc_html_x( 'Simplicity is not a style, it is more a philosophy about how to design something more effectively.', 'Small text for "Featured projects" pattern', 'silence' ); ?></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:column -->
