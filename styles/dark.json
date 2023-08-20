@@ -17,11 +17,6 @@
 					"slug": "primary"
 				},
 				{
-					"color": "#ffe600",
-					"name": "Secondary",
-					"slug": "secondary"
-				},
-				{
 					"color": "rgba(var(--wp--custom--color--base), 1)",
 					"name": "Base",
 					"slug": "base"
