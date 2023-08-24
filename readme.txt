@@ -2,7 +2,7 @@
 
 Contributors: Uladzimir Kulesh
 Requires at least: 6.1
-Tested up to: 6.2
+Tested up to: 6.3
 Requires PHP: 5.6
 Stable tag: 1.0
 License: GPLv2 or later
@@ -21,8 +21,8 @@ Silence is an easy-to-use WordPress theme inspired by simplicity. With block pat
 
 == Changelog ==
 
-= 1.0 =
-* Released: July 1, 2023
+= 1.1 =
+* Released: August 24, 2023
 
 == Copyright ==
 
@@ -38,3 +38,15 @@ This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
+
+== Credits ==
+
+normalize.css, Copyright Nicolas Gallagher and Jonathan Neal
+License: MIT
+Source: https://necolas.github.io/normalize.css/
+
+Material Design icons, Copyright Google
+License: Apache license version 2.0.
+Source: https://material.io/tools/icons/
+
+Images: https://unsplash.com/

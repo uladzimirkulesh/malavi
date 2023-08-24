@@ -5,13 +5,13 @@ Author: Uladzimir Kulesh
 Author URI: https://uladzimirkulesh.com
 Description: Silence is an easy-to-use WordPress theme inspired by simplicity. With block patterns, which allow you to create a beautiful layout in a matter of seconds, this theme’s colors and eye-catching design will let your work shine. Whether you want to build a complex or incredibly simple website, you can do it quickly and intuitively through the bundled styles or dive into creation and full customization yourself.
 Requires at least: 6.1
-Tested up to: 6.2
+Tested up to: 6.3
 Requires PHP: 5.6
-Version: 1.031
+Version: 1.1
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 Text Domain: silence
-Tags: one-column, custom-colors, custom-menu, featured-images, full-site-editing, block-patterns, threaded-comments, translation-ready, wide-blocks, block-styles, accessibility-ready, blog, portfolio, news
+Tags: one-column, custom-menu, featured-images, full-site-editing, block-patterns, threaded-comments, translation-ready, wide-blocks, blog, portfolio, news
 */
 
 
@@ -493,7 +493,7 @@ select {
 	-webkit-box-shadow: none;
 	box-shadow: none;
 
-	background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='10' fill='%23ffffff'><polygon points='0,0 10,0 5,5'/></svg>");
+	background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='10' fill='%23000000'><polygon points='0,0 10,0 5,5'/></svg>");
 	background-position: right 1rem top 60%;
 	background-repeat: no-repeat;
 
@@ -536,6 +536,25 @@ input[type="checkbox"]+label {
 	margin-top: 0;
 }
 
+/*
+Search
+*/
+
+:where(.wp-block-search__button-inside .wp-block-search__inside-wrapper) {
+	border-radius: 0.5em;
+	border-color: var(--wp--preset--color--contrast-borders);
+}
+
+:where(.wp-block-search__button-inside .wp-block-search__inside-wrapper) .wp-block-search__input {
+	border: none !important;
+	border-radius: 0 !important;
+	background-color: transparent !important;
+}
+
+.wp-block-search__inside-wrapper {
+	margin-top: 0;
+}
+
 /*-------------------------------------------------------
 Misk
 -------------------------------------------------------*/
@@ -572,7 +591,6 @@ pre {
 
 abbr,
 acronym {
-	border-bottom: 1px dotted currentColor;
 	cursor: help;
 }
 
@@ -580,22 +598,27 @@ mark,
 ins {
 	color: var(--wp--preset--color--base);
 	background-color: var(--wp--preset--color--primary);
+	text-decoration: none;
 }
 
 big {
 	font-size: 125%;
 }
 
+figure > figcaption {
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+
+	color: var(--wp--preset--color--contrast-secondary-text);
+	font-size: var(--wp--preset--font-size--small);
+	text-align: center;
+}
+
 /*
 Blockquote, pullquote
 */
 
-blockquote {
-	position: relative;
-	margin: 1rem 1.5rem;
-}
-
-blockquote::before {
+.wp-block-quote::before {
 	content: "\275D";
 	position: absolute;
 	left: -3px;
@@ -604,8 +627,28 @@ blockquote::before {
 	line-height: 1;
 }
 
-.wp-block-pullquote blockquote::before {
-	display: none;
+.wp-block-quote.is-large:where(:not(.is-style-plain)),
+.wp-block-quote.is-style-large:where(:not(.is-style-plain)) {
+	padding-right: 0;
+	padding-left: calc(var(--wp--custom--spacing--base) * 2);
+}
+
+blockquote {
+	position: relative;
+	margin: 1rem 1.5rem;
+}
+
+blockquote {
+	quotes: "" "";
+}
+
+blockquote::before,
+blockquote::after {
+	content: "";
+}
+
+q {
+	quotes: "\201c" "\201d" "\2018" "\2019";
 }
 
 /*
@@ -657,6 +700,28 @@ Fonts
 
 .has-xxxxxxx-large-font-size {
 	line-height: 0.975;
+}
+
+/*
+Table
+*/
+
+.wp-block-table .wp-element-caption {
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+
+	color: var(--wp--preset--color--contrast-secondary-text);
+	font-size: var(--wp--preset--font-size--small);
+	text-align: center;
+}
+
+/*
+Image
+*/
+
+.wp-block-image figcaption {
+	color: var(--wp--preset--color--contrast-secondary-text);
+	font-size: var(--wp--preset--font-size--small);
 }
 
 /*-------------------------------------------------------

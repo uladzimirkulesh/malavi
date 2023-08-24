@@ -1,0 +1,862 @@
+# Copyright (C) 2023 Uladzimir Kulesh
+# This file is distributed under the same license as the Silence package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Silence\n"
+"Report-Msgid-Bugs-To: https://uladzimirkulesh.com\n"
+"POT-Creation-Date: 2023-08-22 17:01+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Uladzimir Kulesh <u.a.kulesh@gmail.com>\n"
+"Language-Team: Uladzimir Kulesh <u.a.kulesh@gmail.com>\n"
+"Language: English\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.4; wp-6.3\n"
+"X-Domain: silence"
+
+#. Content for "Contacts" pattern item
+#: patterns/contacts-page.php:57 patterns/contacts.php:27
+msgid "501 Passaic Avenue, Harrison, <br>New York 07329"
+msgstr ""
+
+#. Adress for "Contact us" pattern
+#: patterns/contact-us.php:44
+msgid "501 Passaic Avenue, Harrison,<br>New York 07329"
+msgstr ""
+
+#. Content for "Contacts" pattern item
+#: patterns/contacts-page.php:103 patterns/contacts.php:48
+msgid ""
+"<a href=\"mailto:info@sitename.com\" target=\"_blank\" rel=\"noreferrer "
+"noopener\">info@sitename.com</a><br><a rel=\"noreferrer noopener\" "
+"href=\"mailto:hello@sitename.com\" target=\"_blank\">hello@sitename.com</a>"
+msgstr ""
+
+#. Content for "Contacts" pattern item
+#: patterns/contacts-page.php:116 patterns/contacts.php:65
+msgid ""
+"<a href=\"tel:+1 234-765-9876\">+1 234-765-9876</a><br><a href=\"tel:+1 254-"
+"987-4321\">+1 254-987-4321</a>"
+msgstr ""
+
+#. Title for "Page header" pattern
+#: patterns/page-header.php:19
+msgid "A few words about <br>development <br>process"
+msgstr ""
+
+#. Title for "Our awards" pattern
+#: patterns/our-awards.php:45
+msgid "Agency of the year '21 <br>according to Awwwards"
+msgstr ""
+
+#. Title for "Testimonials" pattern
+#: patterns/testimonials.php:19
+msgid "And winning <br>hearts and trust"
+msgstr ""
+
+#: patterns/our-awards.php:75 patterns/our-awards.php:115
+msgctxt "Award name for \"Our awards\" pattern"
+msgid "Awwwards - Honorable Mention"
+msgstr ""
+
+#: patterns/our-awards.php:235
+msgctxt "Award name for \"Our awards\" pattern"
+msgid "Awwwards - Independant Of The Year"
+msgstr ""
+
+#: patterns/our-awards.php:275
+msgctxt "Award name for \"Our awards\" pattern"
+msgid "Awwwards - Mobile Excellence"
+msgstr ""
+
+#: patterns/our-awards.php:195
+msgctxt "Award name for \"Our awards\" pattern"
+msgid "CSS Design Awards - Designer Of The Year"
+msgstr ""
+
+#: patterns/our-awards.php:155
+msgctxt "Award name for \"Our awards\" pattern"
+msgid "CSS Design Awards - Special Kudos"
+msgstr ""
+
+#: patterns/our-awards.php:315
+msgctxt "Award name for \"Our awards\" pattern"
+msgid "CSS Design Awards - Website Of The Day"
+msgstr ""
+
+#: patterns/testimonials.php:125
+msgctxt "Company name for \"Testimonials\" item"
+msgid "Director OPTIC Capital"
+msgstr ""
+
+#: patterns/testimonials.php:193
+msgctxt "Company name for \"Testimonials\" item"
+msgid "Founder Maruko Royale"
+msgstr ""
+
+#: patterns/testimonials.php:93
+msgctxt "Company name for \"Testimonials\" item"
+msgid "Global Branding Group"
+msgstr ""
+
+#: patterns/testimonials.php:161
+msgctxt "Company name for \"Testimonials\" item"
+msgid "OCHRA Worldwide"
+msgstr ""
+
+#: patterns/testimonials.php:61
+msgctxt "Company name for \"Testimonials\" item"
+msgid "Welmort Asia Realty"
+msgstr ""
+
+#: patterns/services.php:100
+msgctxt "Content for \"Services\" item"
+msgid ""
+"Our creative team produces compelling and impactful content that tells your "
+"brand's story and captivates your audience."
+msgstr ""
+
+#: patterns/services.php:116
+msgctxt "Content for \"Services\" item"
+msgid ""
+"Our strategic digital marketing campaigns help businesses amplify their "
+"online presence and achieve their growth goals."
+msgstr ""
+
+#: patterns/services.php:136
+msgctxt "Content for \"Services\" item"
+msgid ""
+"We design intuitive and visually appealing user interfaces that enhance user "
+"experiences and streamline interactions."
+msgstr ""
+
+#: patterns/services.php:64
+msgctxt "Content for \"Services\" item"
+msgid ""
+"We design websites with meticulous attention to details. From UI design to "
+"user experience."
+msgstr ""
+
+#: patterns/services.php:80
+msgctxt "Content for \"Services\" item"
+msgid ""
+"We help build the foundation for strong brands and connect them with "
+"people's hearts."
+msgstr ""
+
+#: patterns/services.php:44
+msgctxt "Content for \"Services\" item"
+msgid ""
+"We provide smart design solutions that address the root needs of your "
+"product, service or mission."
+msgstr ""
+
+#: patterns/testimonials.php:181
+msgctxt "Content for \"Testimonials\" item"
+msgid ""
+"\"I feel a sense of pride at what we achieved working together for the "
+"website launch. Great teamwork.\""
+msgstr ""
+
+#: patterns/testimonials.php:113
+msgctxt "Content for \"Testimonials\" item"
+msgid ""
+"\"The team were highly motivated, responsive and energetic and delivered "
+"fully on every brief we gave them.\""
+msgstr ""
+
+#: patterns/testimonials.php:49
+msgctxt "Content for \"Testimonials\" item"
+msgid ""
+"\"They are a highly skilled and knowledgeable team with a dedication to "
+"delivering excellence.\""
+msgstr ""
+
+#: patterns/testimonials.php:149
+msgctxt "Content for \"Testimonials\" item"
+msgid ""
+"\"They skillfully and meticulously create new innovative designs without "
+"changing our brand DNA.\""
+msgstr ""
+
+#: patterns/testimonials.php:81
+msgctxt "Content for \"Testimonials\" item"
+msgid ""
+"\"Working together we created a brand that has been very well received by "
+"the market. Great work.\""
+msgstr ""
+
+#: patterns/what-we-are-doing.php:51
+msgctxt "Content for \"What we are doing\" pattern"
+msgid ""
+"Developing digital products since 2015. We help bring ideas to life and "
+"create digital products that work."
+msgstr ""
+
+#: patterns/who-we-are.php:49
+msgctxt "Content for \"Who we are\" pattern"
+msgid ""
+"Hello there! 👋 We are an award-winning design agency with a talented team of "
+"digital creatives, product designers, developers, and problem solvers, ready "
+"to dedicate ourselves to provide a fresh perspective for the solutions you "
+"need."
+msgstr ""
+
+#: patterns/featured-projects.php:103
+msgctxt "Content for project in the \"Featured projects\" pattern"
+msgid ""
+"A highly immersive and interactive creative website that blurs the line "
+"between the real world and fairytale, built with WebGL and other fancy tech."
+msgstr ""
+
+#: patterns/featured-projects.php:183
+msgctxt "Content for project in the \"Featured projects\" pattern"
+msgid ""
+"Crafting a unique story through a website. Seamless user experience, "
+"animations, and UI design, where every element and interaction is thought "
+"through."
+msgstr ""
+
+#: patterns/featured-projects.php:143
+msgctxt "Content for project in the \"Featured projects\" pattern"
+msgid ""
+"This product has won several design awards for the best website design, "
+"including Webby, Awwwards, and Red Dot. It has also been featured in over "
+"100 publications, such as Entrepreneur and Mashable."
+msgstr ""
+
+#: patterns/featured-projects.php:63
+msgctxt "Content for project in the \"Featured projects\" pattern"
+msgid ""
+"We helped IPShtorm to create a clean and intuitive website and web "
+"application for a SaaS brand protection solution for Amazon sellers."
+msgstr ""
+
+#. "Keep in touch" pattern content.
+#: patterns/keep-in-touch.php:31
+msgid ""
+"Do you have a project in mind? Contact us and let’s work together, it’s just "
+"easy as writing an email: <a href=\"mailto:hello@sitename.com\" "
+"target=\"_blank\" rel=\"noreferrer noopener\">hello@sitename.com</a>"
+msgstr ""
+
+#: patterns/hidden-404.php:11
+msgctxt "Error code for a webpage that is not found."
+msgid "Not Found"
+msgstr ""
+
+#: patterns/hidden-404.php:26
+msgid "Home Page"
+msgstr ""
+
+#. URI of the theme
+msgid "https://silence.uladzimirkulesh.com"
+msgstr ""
+
+#. Author URI of the theme
+#: patterns/footer-default.php:24
+msgid "https://uladzimirkulesh.com"
+msgstr ""
+
+#: patterns/our-goals.php:88
+msgctxt "Item for \"Our goals\" pattern"
+msgid "Creative Direction"
+msgstr ""
+
+#: patterns/our-goals.php:104
+msgctxt "Item for \"Our goals\" pattern"
+msgid "Economics Degree"
+msgstr ""
+
+#: patterns/our-goals.php:80
+msgctxt "Item for \"Our goals\" pattern"
+msgid "HTML, CSS, Javascript"
+msgstr ""
+
+#: patterns/our-goals.php:72
+msgctxt "Item for \"Our goals\" pattern"
+msgid "Product & Visual Design"
+msgstr ""
+
+#: patterns/our-goals.php:96
+msgctxt "Item for \"Our goals\" pattern"
+msgid "Product Development"
+msgstr ""
+
+#: patterns/our-goals.php:56
+msgctxt "Item for \"Our goals\" pattern"
+msgid "Project & Product Management"
+msgstr ""
+
+#: patterns/our-goals.php:64
+msgctxt "Item for \"Our goals\" pattern"
+msgid "Prototyping & User Research"
+msgstr ""
+
+#: patterns/hidden-no-results.php:12
+msgctxt "label"
+msgid "Search"
+msgstr ""
+
+#. Text for "Learn more" services item
+#: patterns/services.php:159
+msgid "Learn more about <br>services."
+msgstr ""
+
+#. Title for "Contact us" pattern
+#: patterns/contact-us.php:31
+msgid ""
+"Let's create something great together. <br>Contact us and let's bring your "
+"vision to life."
+msgstr ""
+
+#: patterns/hidden-no-results.php:9
+msgctxt "Message explaining that there are no results returned from a search"
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: patterns/hidden-404.php:19
+msgctxt "Message to convey that a webpage could not be found"
+msgid "Error 404: The page you were looking for cannot be found."
+msgstr ""
+
+#. Content for "Contacts" pattern item
+#: patterns/contacts-page.php:74 patterns/contacts.php:82
+msgid "Mon - Fri: 8am - 6pm<br>Sat - Sun: Closed"
+msgstr ""
+
+#: patterns/our-team.php:174
+msgctxt "Name for \"Our team\" pattern"
+msgid "Harisson Adams"
+msgstr ""
+
+#: patterns/our-team.php:150
+msgctxt "Name for \"Our team\" pattern"
+msgid "Hina Otari"
+msgstr ""
+
+#: patterns/our-team.php:122
+msgctxt "Name for \"Our team\" pattern"
+msgid "Jane Jimenez"
+msgstr ""
+
+#: patterns/our-team.php:98
+msgctxt "Name for \"Our team\" pattern"
+msgid "John Ruth"
+msgstr ""
+
+#: patterns/our-team.php:50
+msgctxt "Name for \"Our team\" pattern"
+msgid "Lois Patterson"
+msgstr ""
+
+#: patterns/our-team.php:222
+msgctxt "Name for \"Our team\" pattern"
+msgid "Simon Fay"
+msgstr ""
+
+#: patterns/our-team.php:74 patterns/our-team.php:198
+msgctxt "Name for \"Our team\" pattern"
+msgid "Stephanie Hart"
+msgstr ""
+
+#: patterns/testimonials.php:57
+msgctxt "Name for \"Testimonials\" item"
+msgid "Bennett Cole"
+msgstr ""
+
+#: patterns/testimonials.php:89
+msgctxt "Name for \"Testimonials\" item"
+msgid "Christian Brown"
+msgstr ""
+
+#: patterns/testimonials.php:189
+msgctxt "Name for \"Testimonials\" item"
+msgid "Edmond Herrera"
+msgstr ""
+
+#: patterns/testimonials.php:121
+msgctxt "Name for \"Testimonials\" item"
+msgid "Georgie Tingey"
+msgstr ""
+
+#: patterns/testimonials.php:157
+msgctxt "Name for \"Testimonials\" item"
+msgid "Shirley Stokes"
+msgstr ""
+
+#: patterns/our-history.php:52
+msgctxt "Number for \"Our history\" pattern"
+msgid "18"
+msgstr ""
+
+#: patterns/our-history.php:72
+msgctxt "Number for \"Our history\" pattern"
+msgid "25"
+msgstr ""
+
+#: patterns/our-history.php:88
+msgctxt "Number for \"Our history\" pattern"
+msgid "76"
+msgstr ""
+
+#: patterns/our-history.php:92
+msgctxt "Number text for \"Our history\" pattern"
+msgid "Projects comleted."
+msgstr ""
+
+#: patterns/our-history.php:76
+msgctxt "Number text for \"Our history\" pattern"
+msgid "Team members."
+msgstr ""
+
+#: patterns/our-history.php:56
+msgctxt "Number text for \"Our history\" pattern"
+msgid "Years of experience."
+msgstr ""
+
+#. Title for "Featured projects" pattern
+#: patterns/featured-projects.php:19
+msgid "Our projects is more <br>than fonts and <br>pictures"
+msgstr ""
+
+#: patterns/hidden-no-results.php:12
+msgctxt "placeholder for search field"
+msgid "Search..."
+msgstr ""
+
+#: patterns/our-awards.php:187
+msgctxt "Project title for \"Our awards\" pattern"
+msgid "Arkona WordPress Theme"
+msgstr ""
+
+#: patterns/our-awards.php:267
+msgctxt "Project title for \"Our awards\" pattern"
+msgid "Catarina WordPress Theme"
+msgstr ""
+
+#: patterns/our-awards.php:147
+msgctxt "Project title for \"Our awards\" pattern"
+msgid "Itonga WordPress Theme"
+msgstr ""
+
+#: patterns/our-awards.php:67
+msgctxt "Project title for \"Our awards\" pattern"
+msgid "Katrien WordPress Theme"
+msgstr ""
+
+#: patterns/our-awards.php:227
+msgctxt "Project title for \"Our awards\" pattern"
+msgid "Melina WordPress Theme"
+msgstr ""
+
+#: patterns/our-awards.php:107
+msgctxt "Project title for \"Our awards\" pattern"
+msgid "Neiman WordPress Theme"
+msgstr ""
+
+#: patterns/our-awards.php:307
+msgctxt "Project title for \"Our awards\" pattern"
+msgid "Windmill WordPress Theme"
+msgstr ""
+
+#. Content for "Testimonials" more item
+#: patterns/testimonials.php:214
+msgid "Read more people's <br>testimonials."
+msgstr ""
+
+#: patterns/our-team.php:126
+msgctxt "Role for \"Our team\" pattern"
+msgid "Art Director"
+msgstr ""
+
+#: patterns/our-team.php:102 patterns/our-team.php:178
+msgctxt "Role for \"Our team\" pattern"
+msgid "Designer"
+msgstr ""
+
+#: patterns/our-team.php:226
+msgctxt "Role for \"Our team\" pattern"
+msgid "Developer"
+msgstr ""
+
+#: patterns/our-team.php:78 patterns/our-team.php:202
+msgctxt "Role for \"Our team\" pattern"
+msgid "Manager"
+msgstr ""
+
+#: patterns/our-team.php:54 patterns/our-team.php:154
+msgctxt "Role for \"Our team\" pattern"
+msgid "Sales person"
+msgstr ""
+
+#: patterns/hidden-no-results.php:12
+msgid "Search"
+msgstr ""
+
+#. Name of the theme
+msgid "Silence"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Silence is an easy-to-use WordPress theme inspired by simplicity. With block "
+"patterns, which allow you to create a beautiful layout in a matter of "
+"seconds, this theme’s colors and eye-catching design will let your work "
+"shine. Whether you want to build a complex or incredibly simple website, you "
+"can do it quickly and intuitively through the bundled styles or dive into "
+"creation and full customization yourself."
+msgstr ""
+
+#: functions.php:75
+msgid "Silence Theme"
+msgstr ""
+
+#: patterns/featured-projects.php:29
+msgctxt "Small text for \"Featured projects\" pattern"
+msgid ""
+"Simplicity is not a style, it is more a philosophy about how to design "
+"something more effectively."
+msgstr ""
+
+#: patterns/page-header.php:29
+msgctxt "Small text for \"Page header\" pattern"
+msgid ""
+"See how software is developed and how it can help your business compete. "
+"Discover software development innovations and technologies."
+msgstr ""
+
+#: patterns/who-we-are.php:29
+msgctxt "Small text for \"Who we are\" pattern"
+msgid ""
+"We are obsessed with creativity — challenging what is, while defining what "
+"comes next."
+msgstr ""
+
+#: patterns/contact-us.php:37
+msgctxt "Small title for \"Contact us\" pattern"
+msgid "Adress"
+msgstr ""
+
+#: patterns/contact-us.php:20
+msgctxt "Small title for \"Contact us\" pattern"
+msgid "Contact us"
+msgstr ""
+
+#: patterns/contacts-page.php:50
+msgctxt "Small title for \"Contacts Page\" pattern"
+msgid "Address"
+msgstr ""
+
+#: patterns/contacts-page.php:92
+msgctxt "Small title for \"Contacts Page\" pattern"
+msgid "Get in Touch"
+msgstr ""
+
+#: patterns/contacts-page.php:134
+msgctxt "Small title for \"Contacts Page\" pattern"
+msgid "Social networks"
+msgstr ""
+
+#: patterns/contacts-page.php:67
+msgctxt "Small title for \"Contacts Page\" pattern"
+msgid "Work hours"
+msgstr ""
+
+#: patterns/our-agency.php:41
+msgctxt "Small title for \"Our agency\" pattern"
+msgid "Our agency"
+msgstr ""
+
+#: patterns/our-awards.php:22
+msgctxt "Small title for \"Our awards\" pattern"
+msgid "Our awards"
+msgstr ""
+
+#: patterns/our-goals.php:20
+msgctxt "Small title for \"Our history\" pattern"
+msgid "Our goals"
+msgstr ""
+
+#: patterns/our-history.php:20
+msgctxt "Small title for \"Our history\" pattern"
+msgid "Our history"
+msgstr ""
+
+#: patterns/our-goals.php:48
+msgctxt "Small title for \"Our history\" pattern"
+msgid "Super powers"
+msgstr ""
+
+#: patterns/our-team.php:22
+msgctxt "Small title for \"Our team\" pattern"
+msgid "Our team"
+msgstr ""
+
+#: patterns/contact-us.php:66
+msgctxt "Text for \"Contact us\" link for \"Contact us\" pattern"
+msgid "Contact us"
+msgstr ""
+
+#: patterns/contacts-page.php:36
+msgctxt "Text for \"Contacts Page\" pattern"
+msgid ""
+"If you’re interested in working with us, or collaborating on a project, we’d "
+"love to hear from you."
+msgstr ""
+
+#: patterns/our-agency.php:49
+msgctxt "Text for \"Our agency\" pattern"
+msgid ""
+"From the moment our company was founded, we have helped our clients find "
+"exceptional solutions for their businesses, creating memorable brands and "
+"digital products."
+msgstr ""
+
+#: patterns/our-awards.php:51
+msgctxt "Text for \"Our awards\" pattern"
+msgid ""
+"Our biggest strength lays in the fact that we don't just build beautiful "
+"websites, but we also understand what is moving the needles when it comes to "
+"getting results! We combine powerful marketing tools, and customized "
+"strategies so you can make the most out of your website and grow your "
+"business around the clock."
+msgstr ""
+
+#: patterns/our-awards.php:347
+msgctxt "Text for \"Our awards\" pattern"
+msgid ""
+"Some of the work listed here has also been featured in some of the most "
+"renowned sources such as Muzli, Communication Arts, Codrops, TypeWolf, "
+"Creative Bloq, It’s Nice That, and more."
+msgstr ""
+
+#: patterns/our-goals.php:32
+msgctxt "Text for \"Our goals\" pattern"
+msgid ""
+"As a creative design agency, we’re experts in graphic design and love "
+"nothing more than getting our creative juices flowing! With a range of "
+"application and industry experience, we can turn our hand to any project – "
+"from printed materials to digital designs. We deliver attention-grabbing and "
+"clever designs that hit the brief, excite your audience, and reflect your "
+"branding."
+msgstr ""
+
+#: patterns/our-goals.php:28
+msgctxt "Text for \"Our goals\" pattern"
+msgid ""
+"Our projects have collected an impressive amount of international awards, "
+"celebrating the high-quality and unique way of creating custom experiences "
+"for its clients."
+msgstr ""
+
+#: patterns/our-history.php:32
+msgctxt "Text for \"Our history\" pattern"
+msgid ""
+"Our focus isn’t the size of the project, but the size of the ideas. We’re "
+"committed to collaboration — with our clients, with our partners, and with "
+"each other — working together to unlock our best thinking and create "
+"timeless work that inspires."
+msgstr ""
+
+#: patterns/our-history.php:28
+msgctxt "Text for \"Our history\" pattern"
+msgid ""
+"We were founded in 2015. Over the past years, we have grown in all plans – "
+"we have learned to implement large-scale projects and not be afraid to take "
+"on pilot tasks in our field, we have built long-term and trusting "
+"relationships with partners around the world."
+msgstr ""
+
+#: patterns/our-team.php:30
+msgctxt "Text for \"Our team\" pattern"
+msgid ""
+"Our team consists of highly qualified professionals specializing in various "
+"areas of legal practice. We are driven by unyielding enthusiasm, inspiration "
+"and a special attitude."
+msgstr ""
+
+#: patterns/contacts-page.php:142
+msgctxt "Text for Facebook link for \"Contact Page\" pattern"
+msgid "Facebook"
+msgstr ""
+
+#: patterns/contacts-page.php:150
+msgctxt "Text for Instagram link for \"Contact Page\" pattern"
+msgid "Instagram"
+msgstr ""
+
+#: patterns/contact-us.php:50
+msgctxt "Text for Instagram link for \"Contact us\" pattern"
+msgid "Instagram"
+msgstr ""
+
+#: patterns/contacts-page.php:142
+msgctxt "Text for LinkedIn link for \"Contact Page\" pattern"
+msgid "LinkedIn"
+msgstr ""
+
+#: patterns/contact-us.php:54
+msgctxt "Text for LinkedIn link for \"Contact us\" pattern"
+msgid "LinkedIn"
+msgstr ""
+
+#: patterns/contacts-page.php:150
+msgctxt "Text for Twitter link for \"Contact Page\" pattern"
+msgid "Twitter"
+msgstr ""
+
+#: patterns/contacts-page.php:16
+msgctxt "Title for \"Contacts Page\" pattern"
+msgid "Contacts"
+msgstr ""
+
+#: patterns/contacts.php:58
+msgctxt "Title for \"Contacts\" pattern item"
+msgid "Call us"
+msgstr ""
+
+#: patterns/contacts.php:41
+msgctxt "Title for \"Contacts\" pattern item"
+msgid "Email us"
+msgstr ""
+
+#: patterns/contacts.php:20
+msgctxt "Title for \"Contacts\" pattern item"
+msgid "Location"
+msgstr ""
+
+#: patterns/contacts.php:75
+msgctxt "Title for \"Contacts\" pattern item"
+msgid "Work hours"
+msgstr ""
+
+#: patterns/keep-in-touch.php:20
+msgctxt "Title for \"Keep in touch\" pattern"
+msgid "Keep in touch"
+msgstr ""
+
+#: patterns/services.php:152
+msgctxt "Title for \"Learn more\" services item"
+msgid "Services"
+msgstr ""
+
+#: patterns/services.php:76
+msgctxt "Title for \"Services\" item"
+msgid "Brand Identity"
+msgstr ""
+
+#: patterns/services.php:96
+msgctxt "Title for \"Services\" item"
+msgid "Content Creation"
+msgstr ""
+
+#: patterns/services.php:112
+msgctxt "Title for \"Services\" item"
+msgid "Digital Marketing"
+msgstr ""
+
+#: patterns/services.php:40
+msgctxt "Title for \"Services\" item"
+msgid "Product Design"
+msgstr ""
+
+#: patterns/services.php:132
+msgctxt "Title for \"Services\" item"
+msgid "UI/UX Design"
+msgstr ""
+
+#: patterns/services.php:60
+msgctxt "Title for \"Services\" item"
+msgid "Website Design"
+msgstr ""
+
+#: patterns/services.php:18
+msgctxt "Title for \"Services\" pattern"
+msgid "We help companies with tailor-made solutions"
+msgstr ""
+
+#: patterns/testimonials.php:207
+msgctxt "Title for \"Testimonials\" more item"
+msgid "Testimonials"
+msgstr ""
+
+#: patterns/featured-projects.php:99
+msgctxt "Title for project in the \"Featured projects\" pattern"
+msgid "A fitness company website design"
+msgstr ""
+
+#: patterns/featured-projects.php:59
+msgctxt "Title for project in the \"Featured projects\" pattern"
+msgid "A tech company's website built with Webflow"
+msgstr ""
+
+#: patterns/featured-projects.php:179
+msgctxt "Title for project in the \"Featured projects\" pattern"
+msgid "European digital magazine, powered by women"
+msgstr ""
+
+#: patterns/featured-projects.php:139
+msgctxt "Title for project in the \"Featured projects\" pattern"
+msgid "Online platform for distance learning"
+msgstr ""
+
+#. Author of the theme
+msgid "Uladzimir Kulesh"
+msgstr ""
+
+#: patterns/featured-projects.php:67 patterns/featured-projects.php:107
+#: patterns/featured-projects.php:147 patterns/featured-projects.php:187
+msgid "View case"
+msgstr ""
+
+#. Title for "Our agency" pattern
+#: patterns/our-agency.php:19
+msgid "We are - <br>Kalipso Design"
+msgstr ""
+
+#. Title for "What we are doing" pattern
+#: patterns/what-we-are-doing.php:21
+msgid "We build a stable code <br>using modern <br>solutions"
+msgstr ""
+
+#. Title for "Who we are" pattern
+#: patterns/who-we-are.php:19
+msgid "We make <br>creative things"
+msgstr ""
+
+#: patterns/our-awards.php:323
+msgctxt "Year for \"Our awards\" pattern"
+msgid "2019"
+msgstr ""
+
+#: patterns/our-awards.php:283
+msgctxt "Year for \"Our awards\" pattern"
+msgid "2020"
+msgstr ""
+
+#: patterns/our-awards.php:203 patterns/our-awards.php:243
+msgctxt "Year for \"Our awards\" pattern"
+msgid "2021"
+msgstr ""
+
+#: patterns/our-awards.php:163
+msgctxt "Year for \"Our awards\" pattern"
+msgid "2022"
+msgstr ""
+
+#: patterns/our-awards.php:83 patterns/our-awards.php:123
+msgctxt "Year for \"Our awards\" pattern"
+msgid "2023"
+msgstr ""
+
+#. Copyright.
+#: patterns/footer-default.php:23
+#, php-format
+msgid "© 2023 %s."
+msgstr ""

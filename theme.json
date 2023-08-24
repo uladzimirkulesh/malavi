@@ -183,7 +183,7 @@
 							"fontStyle": "normal",
 							"fontWeight": "400",
 							"src": [
-								"file:./assets/fonts/MaterialIcons-Regular.ttf"
+								"file:./assets/fonts/material-icons/MaterialIcons-Regular.ttf"
 							]
 						}
 					],
@@ -299,9 +299,6 @@
 				}
 			},
 			"core/navigation": {
-				"color": {
-					"text": "var(--wp--preset--color--contrast)"
-				},
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--normal)",
 					"lineHeight": "calc(var(--wp--custom--spacing--base) * 2)"
@@ -817,6 +814,9 @@
 					},
 					"border": {
 						"color": "var(--wp--preset--color--contrast)"
+					},
+					"typography": {
+						"textDecoration": "none"
 					}
 				},
 				":focus": {
@@ -826,6 +826,9 @@
 					},
 					"border": {
 						"color": "var(--wp--preset--color--contrast)"
+					},
+					"typography": {
+						"textDecoration": "none"
 					}
 				},
 				":active": {
@@ -835,6 +838,9 @@
 					},
 					"border": {
 						"color": "var(--wp--preset--color--contrast)"
+					},
+					"typography": {
+						"textDecoration": "none"
 					}
 				}
 			},
