@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Malavi\n"
 "Report-Msgid-Bugs-To: https://uladzimirkulesh.com\n"
-"POT-Creation-Date: 2023-08-22 17:01+0000\n"
+"POT-Creation-Date: 2023-08-27 17:01+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Uladzimir Kulesh <u.a.kulesh@gmail.com>\n"
 "Language-Team: Uladzimir Kulesh <u.a.kulesh@gmail.com>\n"
@@ -252,13 +252,13 @@ msgstr ""
 msgid "Home Page"
 msgstr ""
 
-#. URI of the theme
-msgid "https://malavi.uladzimirkulesh.com"
-msgstr ""
-
 #. Author URI of the theme
 #: patterns/footer-default.php:24
 msgid "https://uladzimirkulesh.com"
+msgstr ""
+
+#. URI of the theme
+msgid "https://uladzimirkulesh.com/malavi"
 msgstr ""
 
 #: patterns/our-goals.php:88
@@ -311,6 +311,24 @@ msgstr ""
 msgid ""
 "Let's create something great together. <br>Contact us and let's bring your "
 "vision to life."
+msgstr ""
+
+#. Name of the theme
+msgid "Malavi"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Malavi is an easy-to-use WordPress theme inspired by simplicity. With block "
+"patterns, which allow you to create a beautiful layout in a matter of "
+"seconds, this theme’s colors and eye-catching design will let your work "
+"shine. Whether you want to build a complex or incredibly simple website, you "
+"can do it quickly and intuitively through the bundled styles or dive into "
+"creation and full customization yourself."
+msgstr ""
+
+#: functions.php:75
+msgid "Malavi Theme"
 msgstr ""
 
 #: patterns/hidden-no-results.php:9
@@ -497,24 +515,6 @@ msgstr ""
 
 #: patterns/hidden-no-results.php:12
 msgid "Search"
-msgstr ""
-
-#. Name of the theme
-msgid "Malavi"
-msgstr ""
-
-#. Description of the theme
-msgid ""
-"Malavi is an easy-to-use WordPress theme inspired by simplicity. With block "
-"patterns, which allow you to create a beautiful layout in a matter of "
-"seconds, this theme’s colors and eye-catching design will let your work "
-"shine. Whether you want to build a complex or incredibly simple website, you "
-"can do it quickly and intuitively through the bundled styles or dive into "
-"creation and full customization yourself."
-msgstr ""
-
-#: functions.php:75
-msgid "Malavi Theme"
 msgstr ""
 
 #: patterns/featured-projects.php:29
