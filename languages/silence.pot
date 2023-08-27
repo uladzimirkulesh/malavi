@@ -1,8 +1,8 @@
 # Copyright (C) 2023 Uladzimir Kulesh
-# This file is distributed under the same license as the Silence package.
+# This file is distributed under the same license as the Malavi package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Silence\n"
+"Project-Id-Version: Malavi\n"
 "Report-Msgid-Bugs-To: https://uladzimirkulesh.com\n"
 "POT-Creation-Date: 2023-08-22 17:01+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Loco https://localise.biz/\n"
 "X-Loco-Version: 2.6.4; wp-6.3\n"
-"X-Domain: silence"
+"X-Domain: malavi"
 
 #. Content for "Contacts" pattern item
 #: patterns/contacts-page.php:57 patterns/contacts.php:27
@@ -253,7 +253,7 @@ msgid "Home Page"
 msgstr ""
 
 #. URI of the theme
-msgid "https://silence.uladzimirkulesh.com"
+msgid "https://malavi.uladzimirkulesh.com"
 msgstr ""
 
 #. Author URI of the theme
@@ -500,12 +500,12 @@ msgid "Search"
 msgstr ""
 
 #. Name of the theme
-msgid "Silence"
+msgid "Malavi"
 msgstr ""
 
 #. Description of the theme
 msgid ""
-"Silence is an easy-to-use WordPress theme inspired by simplicity. With block "
+"Malavi is an easy-to-use WordPress theme inspired by simplicity. With block "
 "patterns, which allow you to create a beautiful layout in a matter of "
 "seconds, this theme’s colors and eye-catching design will let your work "
 "shine. Whether you want to build a complex or incredibly simple website, you "
@@ -514,7 +514,7 @@ msgid ""
 msgstr ""
 
 #: functions.php:75
-msgid "Silence Theme"
+msgid "Malavi Theme"
 msgstr ""
 
 #: patterns/featured-projects.php:29

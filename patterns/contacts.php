@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Contacts
- * Slug: silence/contacts
- * Categories: text, silence
+ * Slug: malavi/contacts
+ * Categories: text, malavi
  * Keywords: Contacts
  */
 ?>
@@ -17,14 +17,14 @@
 		<!-- wp:column -->
 		<div class="wp-block-column">
 			<!-- wp:heading {"level":6} -->
-			<h6 class="wp-block-heading"><?php echo esc_html_x( 'Location', 'Title for "Contacts" pattern item', 'silence' ); ?></h6>
+			<h6 class="wp-block-heading"><?php echo esc_html_x( 'Location', 'Title for "Contacts" pattern item', 'malavi' ); ?></h6>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}}}} -->
 			<p style="margin-top:var(--wp--preset--spacing--10)"><?php
 			echo wp_kses_post(
 				/* translators: Content for "Contacts" pattern item */
-				__( '501 Passaic Avenue, Harrison, <br>New York 07329', 'silence' )
+				__( '501 Passaic Avenue, Harrison, <br>New York 07329', 'malavi' )
 			);
 			?></p>
 			<!-- /wp:paragraph -->
@@ -38,14 +38,14 @@
 		<!-- wp:column -->
 		<div class="wp-block-column">
 			<!-- wp:heading {"level":6} -->
-			<h6 class="wp-block-heading"><?php echo esc_html_x( 'Email us', 'Title for "Contacts" pattern item', 'silence' ); ?></h6>
+			<h6 class="wp-block-heading"><?php echo esc_html_x( 'Email us', 'Title for "Contacts" pattern item', 'malavi' ); ?></h6>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}}}} -->
 			<p style="margin-top:var(--wp--preset--spacing--10)"><?php
 			echo wp_kses_post(
 				/* translators: Content for "Contacts" pattern item */
-				__( '<a href="mailto:info@sitename.com" target="_blank" rel="noreferrer noopener">info@sitename.com</a><br><a rel="noreferrer noopener" href="mailto:hello@sitename.com" target="_blank">hello@sitename.com</a>', 'silence' )
+				__( '<a href="mailto:info@sitename.com" target="_blank" rel="noreferrer noopener">info@sitename.com</a><br><a rel="noreferrer noopener" href="mailto:hello@sitename.com" target="_blank">hello@sitename.com</a>', 'malavi' )
 				);
 			?></p>
 			<!-- /wp:paragraph -->
@@ -55,14 +55,14 @@
 		<!-- wp:column -->
 		<div class="wp-block-column">
 			<!-- wp:heading {"level":6} -->
-			<h6 class="wp-block-heading"><?php echo esc_html_x( 'Call us', 'Title for "Contacts" pattern item', 'silence' ); ?></h6>
+			<h6 class="wp-block-heading"><?php echo esc_html_x( 'Call us', 'Title for "Contacts" pattern item', 'malavi' ); ?></h6>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}}}} -->
 			<p style="margin-top:var(--wp--preset--spacing--10)"><?php
 			echo wp_kses_post(
 				/* translators: Content for "Contacts" pattern item */
-				__( '<a href="tel:+1 234-765-9876">+1 234-765-9876</a><br><a href="tel:+1 254-987-4321">+1 254-987-4321</a>', 'silence' )
+				__( '<a href="tel:+1 234-765-9876">+1 234-765-9876</a><br><a href="tel:+1 254-987-4321">+1 254-987-4321</a>', 'malavi' )
 				);
 			?></p>
 			<!-- /wp:paragraph -->
@@ -72,14 +72,14 @@
 		<!-- wp:column -->
 		<div class="wp-block-column">
 			<!-- wp:heading {"level":6} -->
-			<h6 class="wp-block-heading"><?php echo esc_html_x( 'Work hours', 'Title for "Contacts" pattern item', 'silence' ); ?></h6>
+			<h6 class="wp-block-heading"><?php echo esc_html_x( 'Work hours', 'Title for "Contacts" pattern item', 'malavi' ); ?></h6>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}}}} -->
 			<p style="margin-top:var(--wp--preset--spacing--10)"><?php
 			echo wp_kses_post(
 				/* translators: Content for "Contacts" pattern item */
-				__( 'Mon - Fri: 8am - 6pm<br>Sat - Sun: Closed', 'silence' )
+				__( 'Mon - Fri: 8am - 6pm<br>Sat - Sun: Closed', 'malavi' )
 			);
 			?></p>
 			<!-- /wp:paragraph -->

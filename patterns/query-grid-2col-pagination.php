@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Two column grid with pagination
- * Slug: silence/query-grid-2col-pagination
- * Categories: posts, silence
+ * Slug: malavi/query-grid-2col-pagination
+ * Categories: posts, malavi
  * Block Types: core/query
  */
 ?>

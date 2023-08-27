@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Our team
- * Slug: silence/our-team
- * Categories: text, silence
+ * Slug: malavi/our-team
+ * Categories: text, malavi
  * Keywords: Our team
  */
 ?>
@@ -19,7 +19,7 @@
 			<!-- wp:column -->
 			<div class="wp-block-column">
 				<!-- wp:heading {"level":6} -->
-				<h6 class="wp-block-heading"><?php echo esc_html_x( 'Our team', 'Small title for "Our team" pattern', 'silence' ); ?></h6>
+				<h6 class="wp-block-heading"><?php echo esc_html_x( 'Our team', 'Small title for "Our team" pattern', 'malavi' ); ?></h6>
 				<!-- /wp:heading -->
 			</div>
 			<!-- /wp:column -->
@@ -27,7 +27,7 @@
 			<!-- wp:column -->
 			<div class="wp-block-column">
 				<!-- wp:paragraph {"textColor":"contrast","fontSize":"large"} -->
-				<p class="has-contrast-color has-text-color has-large-font-size"><?php echo esc_html_x( 'Our team consists of highly qualified professionals specializing in various areas of legal practice. We are driven by unyielding enthusiasm, inspiration and a special attitude.', 'Text for "Our team" pattern', 'silence' ); ?></p>
+				<p class="has-contrast-color has-text-color has-large-font-size"><?php echo esc_html_x( 'Our team consists of highly qualified professionals specializing in various areas of legal practice. We are driven by unyielding enthusiasm, inspiration and a special attitude.', 'Text for "Our team" pattern', 'malavi' ); ?></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:column -->
@@ -47,11 +47,11 @@
 					<!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|20","left":"var:preset|spacing|20","bottom":"var:preset|spacing|20","top":"var:preset|spacing|20"},"margin":{"top":"0"}}},"layout":{"type":"default"}} -->
 					<div class="wp-block-group" style="margin-top:0;padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--20)">
 						<!-- wp:paragraph {"style":{"typography":{"fontWeight":"500"}},"textColor":"contrast","fontSize":"medium"} -->
-						<p class="has-contrast-color has-text-color has-medium-font-size" style="font-weight:500"><?php echo esc_html_x( 'Lois Patterson', 'Name for "Our team" pattern', 'silence' ); ?></p>
+						<p class="has-contrast-color has-text-color has-medium-font-size" style="font-weight:500"><?php echo esc_html_x( 'Lois Patterson', 'Name for "Our team" pattern', 'malavi' ); ?></p>
 						<!-- /wp:paragraph -->
 
 						<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0"}}},"textColor":"contrast-secondary-text","fontSize":"small"} -->
-						<p class="has-contrast-secondary-text-color has-text-color has-small-font-size" style="margin-top:0"><?php echo esc_html_x( 'Sales person', 'Role for "Our team" pattern', 'silence' ); ?></p>
+						<p class="has-contrast-secondary-text-color has-text-color has-small-font-size" style="margin-top:0"><?php echo esc_html_x( 'Sales person', 'Role for "Our team" pattern', 'malavi' ); ?></p>
 						<!-- /wp:paragraph -->
 					</div>
 					<!-- /wp:group -->
@@ -71,11 +71,11 @@
 					<!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|20","left":"var:preset|spacing|20","bottom":"var:preset|spacing|20","top":"var:preset|spacing|20"},"margin":{"top":"0"}}},"layout":{"type":"default"}} -->
 					<div class="wp-block-group" style="margin-top:0;padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--20)">
 						<!-- wp:paragraph {"style":{"typography":{"fontWeight":"500"}},"textColor":"contrast","fontSize":"medium"} -->
-						<p class="has-contrast-color has-text-color has-medium-font-size" style="font-weight:500"><?php echo esc_html_x( 'Stephanie Hart', 'Name for "Our team" pattern', 'silence' ); ?></p>
+						<p class="has-contrast-color has-text-color has-medium-font-size" style="font-weight:500"><?php echo esc_html_x( 'Stephanie Hart', 'Name for "Our team" pattern', 'malavi' ); ?></p>
 						<!-- /wp:paragraph -->
 
 						<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0"}}},"textColor":"contrast-secondary-text","fontSize":"small"} -->
-						<p class="has-contrast-secondary-text-color has-text-color has-small-font-size" style="margin-top:0"><?php echo esc_html_x( 'Manager', 'Role for "Our team" pattern', 'silence' ); ?></p>
+						<p class="has-contrast-secondary-text-color has-text-color has-small-font-size" style="margin-top:0"><?php echo esc_html_x( 'Manager', 'Role for "Our team" pattern', 'malavi' ); ?></p>
 						<!-- /wp:paragraph -->
 					</div>
 					<!-- /wp:group -->
@@ -95,11 +95,11 @@
 					<!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|20","left":"var:preset|spacing|20","bottom":"var:preset|spacing|20","top":"var:preset|spacing|20"},"margin":{"top":"0"}}},"layout":{"type":"default"}} -->
 					<div class="wp-block-group" style="margin-top:0;padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--20)">
 						<!-- wp:paragraph {"style":{"typography":{"fontWeight":"500"}},"textColor":"contrast","fontSize":"medium"} -->
-						<p class="has-contrast-color has-text-color has-medium-font-size" style="font-weight:500"><?php echo esc_html_x( 'John Ruth', 'Name for "Our team" pattern', 'silence' ); ?></p>
+						<p class="has-contrast-color has-text-color has-medium-font-size" style="font-weight:500"><?php echo esc_html_x( 'John Ruth', 'Name for "Our team" pattern', 'malavi' ); ?></p>
 						<!-- /wp:paragraph -->
 
 						<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0"}}},"textColor":"contrast-secondary-text","fontSize":"small"} -->
-						<p class="has-contrast-secondary-text-color has-text-color has-small-font-size" style="margin-top:0"><?php echo esc_html_x( 'Designer', 'Role for "Our team" pattern', 'silence' ); ?></p>
+						<p class="has-contrast-secondary-text-color has-text-color has-small-font-size" style="margin-top:0"><?php echo esc_html_x( 'Designer', 'Role for "Our team" pattern', 'malavi' ); ?></p>
 						<!-- /wp:paragraph -->
 					</div>
 					<!-- /wp:group -->
@@ -119,11 +119,11 @@
 					<!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|20","left":"var:preset|spacing|20","bottom":"var:preset|spacing|20","top":"var:preset|spacing|20"},"margin":{"top":"0"}}},"layout":{"type":"default"}} -->
 					<div class="wp-block-group" style="margin-top:0;padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--20)">
 						<!-- wp:paragraph {"style":{"typography":{"fontWeight":"500"}},"textColor":"contrast","fontSize":"medium"} -->
-						<p class="has-contrast-color has-text-color has-medium-font-size" style="font-weight:500"><?php echo esc_html_x( 'Jane Jimenez', 'Name for "Our team" pattern', 'silence' ); ?></p>
+						<p class="has-contrast-color has-text-color has-medium-font-size" style="font-weight:500"><?php echo esc_html_x( 'Jane Jimenez', 'Name for "Our team" pattern', 'malavi' ); ?></p>
 						<!-- /wp:paragraph -->
 
 						<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0"}}},"textColor":"contrast-secondary-text","fontSize":"small"} -->
-						<p class="has-contrast-secondary-text-color has-text-color has-small-font-size" style="margin-top:0"><?php echo esc_html_x( 'Art Director', 'Role for "Our team" pattern', 'silence' ); ?></p>
+						<p class="has-contrast-secondary-text-color has-text-color has-small-font-size" style="margin-top:0"><?php echo esc_html_x( 'Art Director', 'Role for "Our team" pattern', 'malavi' ); ?></p>
 						<!-- /wp:paragraph -->
 					</div>
 					<!-- /wp:group -->
@@ -147,11 +147,11 @@
 					<!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|20","left":"var:preset|spacing|20","bottom":"var:preset|spacing|20","top":"var:preset|spacing|20"},"margin":{"top":"0"}}},"layout":{"type":"default"}} -->
 					<div class="wp-block-group" style="margin-top:0;padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--20)">
 						<!-- wp:paragraph {"style":{"typography":{"fontWeight":"500"}},"textColor":"contrast","fontSize":"medium"} -->
-						<p class="has-contrast-color has-text-color has-medium-font-size" style="font-weight:500"><?php echo esc_html_x( 'Hina Otari', 'Name for "Our team" pattern', 'silence' ); ?></p>
+						<p class="has-contrast-color has-text-color has-medium-font-size" style="font-weight:500"><?php echo esc_html_x( 'Hina Otari', 'Name for "Our team" pattern', 'malavi' ); ?></p>
 						<!-- /wp:paragraph -->
 
 						<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0"}}},"textColor":"contrast-secondary-text","fontSize":"small"} -->
-						<p class="has-contrast-secondary-text-color has-text-color has-small-font-size" style="margin-top:0"><?php echo esc_html_x( 'Sales person', 'Role for "Our team" pattern', 'silence' ); ?></p>
+						<p class="has-contrast-secondary-text-color has-text-color has-small-font-size" style="margin-top:0"><?php echo esc_html_x( 'Sales person', 'Role for "Our team" pattern', 'malavi' ); ?></p>
 						<!-- /wp:paragraph -->
 					</div>
 					<!-- /wp:group -->
@@ -171,11 +171,11 @@
 					<!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|20","left":"var:preset|spacing|20","bottom":"var:preset|spacing|20","top":"var:preset|spacing|20"},"margin":{"top":"0"}}},"layout":{"type":"default"}} -->
 					<div class="wp-block-group" style="margin-top:0;padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--20)">
 						<!-- wp:paragraph {"style":{"typography":{"fontWeight":"500"}},"textColor":"contrast","fontSize":"medium"} -->
-						<p class="has-contrast-color has-text-color has-medium-font-size" style="font-weight:500"><?php echo esc_html_x( 'Harisson Adams', 'Name for "Our team" pattern', 'silence' ); ?></p>
+						<p class="has-contrast-color has-text-color has-medium-font-size" style="font-weight:500"><?php echo esc_html_x( 'Harisson Adams', 'Name for "Our team" pattern', 'malavi' ); ?></p>
 						<!-- /wp:paragraph -->
 
 						<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0"}}},"textColor":"contrast-secondary-text","fontSize":"small"} -->
-						<p class="has-contrast-secondary-text-color has-text-color has-small-font-size" style="margin-top:0"><?php echo esc_html_x( 'Designer', 'Role for "Our team" pattern', 'silence' ); ?></p>
+						<p class="has-contrast-secondary-text-color has-text-color has-small-font-size" style="margin-top:0"><?php echo esc_html_x( 'Designer', 'Role for "Our team" pattern', 'malavi' ); ?></p>
 						<!-- /wp:paragraph -->
 					</div>
 					<!-- /wp:group -->
@@ -195,11 +195,11 @@
 					<!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|20","left":"var:preset|spacing|20","bottom":"var:preset|spacing|20","top":"var:preset|spacing|20"},"margin":{"top":"0"}}},"layout":{"type":"default"}} -->
 					<div class="wp-block-group" style="margin-top:0;padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--20)">
 						<!-- wp:paragraph {"style":{"typography":{"fontWeight":"500"}},"textColor":"contrast","fontSize":"medium"} -->
-						<p class="has-contrast-color has-text-color has-medium-font-size" style="font-weight:500"><?php echo esc_html_x( 'Stephanie Hart', 'Name for "Our team" pattern', 'silence' ); ?></p>
+						<p class="has-contrast-color has-text-color has-medium-font-size" style="font-weight:500"><?php echo esc_html_x( 'Stephanie Hart', 'Name for "Our team" pattern', 'malavi' ); ?></p>
 						<!-- /wp:paragraph -->
 
 						<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0"}}},"textColor":"contrast-secondary-text","fontSize":"small"} -->
-						<p class="has-contrast-secondary-text-color has-text-color has-small-font-size" style="margin-top:0"><?php echo esc_html_x( 'Manager', 'Role for "Our team" pattern', 'silence' ); ?></p>
+						<p class="has-contrast-secondary-text-color has-text-color has-small-font-size" style="margin-top:0"><?php echo esc_html_x( 'Manager', 'Role for "Our team" pattern', 'malavi' ); ?></p>
 						<!-- /wp:paragraph -->
 					</div>
 					<!-- /wp:group -->
@@ -219,11 +219,11 @@
 					<!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|20","left":"var:preset|spacing|20","bottom":"var:preset|spacing|20","top":"var:preset|spacing|20"},"margin":{"top":"0"}}},"layout":{"type":"default"}} -->
 					<div class="wp-block-group" style="margin-top:0;padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--20)">
 						<!-- wp:paragraph {"style":{"typography":{"fontWeight":"500"}},"textColor":"contrast","fontSize":"medium"} -->
-						<p class="has-contrast-color has-text-color has-medium-font-size" style="font-weight:500"><?php echo esc_html_x( 'Simon Fay', 'Name for "Our team" pattern', 'silence' ); ?></p>
+						<p class="has-contrast-color has-text-color has-medium-font-size" style="font-weight:500"><?php echo esc_html_x( 'Simon Fay', 'Name for "Our team" pattern', 'malavi' ); ?></p>
 						<!-- /wp:paragraph -->
 
 						<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0"}}},"textColor":"contrast-secondary-text","fontSize":"small"} -->
-						<p class="has-contrast-secondary-text-color has-text-color has-small-font-size" style="margin-top:0"><?php echo esc_html_x( 'Developer', 'Role for "Our team" pattern', 'silence' ); ?></p>
+						<p class="has-contrast-secondary-text-color has-text-color has-small-font-size" style="margin-top:0"><?php echo esc_html_x( 'Developer', 'Role for "Our team" pattern', 'malavi' ); ?></p>
 						<!-- /wp:paragraph -->
 					</div>
 					<!-- /wp:group -->

@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Hidden Comments
- * Slug: silence/hidden-comments
+ * Slug: malavi/hidden-comments
  * Inserter: no
  */
 ?>

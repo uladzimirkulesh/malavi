@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: What we are doing
- * Slug: silence/what-we-are-doing
- * Categories: text, silence
+ * Slug: malavi/what-we-are-doing
+ * Categories: text, malavi
  * Keywords: What we are doing
  */
 ?>
@@ -18,7 +18,7 @@
 				<h2 class="wp-block-heading has-base-color has-text-color has-xxxxxx-large-font-size"><?php
 				echo wp_kses_post(
 					/* translators: Title for "What we are doing" pattern */
-					__( 'We build a stable code <br>using modern <br>solutions', 'silence' )
+					__( 'We build a stable code <br>using modern <br>solutions', 'malavi' )
 				);
 				?></h2>
 				<!-- /wp:heading -->
@@ -48,7 +48,7 @@
 			<!-- wp:column -->
 			<div class="wp-block-column">
 				<!-- wp:paragraph {"textColor":"base","fontSize":"large"} -->
-				<p class="has-base-color has-text-color has-large-font-size"><?php echo esc_html_x( 'Developing digital products since 2015. We help bring ideas to life and create digital products that work.', 'Content for "What we are doing" pattern', 'silence' ); ?></p>
+				<p class="has-base-color has-text-color has-large-font-size"><?php echo esc_html_x( 'Developing digital products since 2015. We help bring ideas to life and create digital products that work.', 'Content for "What we are doing" pattern', 'malavi' ); ?></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:column -->

@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Keep in touch
- * Slug: silence/keep-in-touch
- * Categories: call-to-action, silence
+ * Slug: malavi/keep-in-touch
+ * Categories: call-to-action, malavi
  * Keywords: Keep in touch
  */
 ?>
@@ -17,7 +17,7 @@
 		<!-- wp:column {"width":"25%"} -->
 		<div class="wp-block-column" style="flex-basis:25%">
 			<!-- wp:heading {"level":6} -->
-			<h6 class="wp-block-heading"><?php echo esc_html_x( 'Keep in touch', 'Title for "Keep in touch" pattern', 'silence' ); ?></h6>
+			<h6 class="wp-block-heading"><?php echo esc_html_x( 'Keep in touch', 'Title for "Keep in touch" pattern', 'malavi' ); ?></h6>
 			<!-- /wp:heading -->
 		</div>
 		<!-- /wp:column -->
@@ -28,7 +28,7 @@
 			<p class="has-contrast-color has-text-color has-xxxx-large-font-size" style="line-height:1.1"><?php
 			echo wp_kses_post(
 				/* translators: "Keep in touch" pattern content. */
-				__( 'Do you have a project in mind? Contact us and let’s work together, it’s just easy as writing an email: <a href="mailto:hello@sitename.com" target="_blank" rel="noreferrer noopener">hello@sitename.com</a>', 'silence' )
+				__( 'Do you have a project in mind? Contact us and let’s work together, it’s just easy as writing an email: <a href="mailto:hello@sitename.com" target="_blank" rel="noreferrer noopener">hello@sitename.com</a>', 'malavi' )
 				);
 			?></p>
 			<!-- /wp:paragraph -->

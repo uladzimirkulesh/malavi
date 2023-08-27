@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Our awards
- * Slug: silence/our-awards
- * Categories: text, silence
+ * Slug: malavi/our-awards
+ * Categories: text, malavi
  * Keywords: Our awards
  */
 ?>
@@ -19,7 +19,7 @@
 			<!-- wp:column -->
 			<div class="wp-block-column">
 				<!-- wp:heading {"level":6,"textColor":"base-secondary-text"} -->
-				<h6 class="wp-block-heading has-base-secondary-text-color has-text-color"><?php echo esc_html_x( 'Our awards', 'Small title for "Our awards" pattern', 'silence' ); ?></h6>
+				<h6 class="wp-block-heading has-base-secondary-text-color has-text-color"><?php echo esc_html_x( 'Our awards', 'Small title for "Our awards" pattern', 'malavi' ); ?></h6>
 				<!-- /wp:heading -->
 			</div>
 			<!-- /wp:column -->
@@ -42,13 +42,13 @@
 				<h2 class="wp-block-heading has-base-color has-text-color has-xxxx-large-font-size"><?php
 				echo wp_kses_post(
 				/* translators: Title for "Our awards" pattern */
-				__( 'Agency of the year \'21 <br>according to Awwwards', 'silence' )
+				__( 'Agency of the year \'21 <br>according to Awwwards', 'malavi' )
 				);
 				?></h2>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph {"textColor":"base-text"} -->
-				<p class="has-base-text-color has-text-color"><?php echo esc_html_x( 'Our biggest strength lays in the fact that we don\'t just build beautiful websites, but we also understand what is moving the needles when it comes to getting results! We combine powerful marketing tools, and customized strategies so you can make the most out of your website and grow your business around the clock.', 'Text for "Our awards" pattern', 'silence' ); ?></p>
+				<p class="has-base-text-color has-text-color"><?php echo esc_html_x( 'Our biggest strength lays in the fact that we don\'t just build beautiful websites, but we also understand what is moving the needles when it comes to getting results! We combine powerful marketing tools, and customized strategies so you can make the most out of your website and grow your business around the clock.', 'Text for "Our awards" pattern', 'malavi' ); ?></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:column -->
@@ -64,7 +64,7 @@
 			<!-- wp:column {"verticalAlignment":"center","width":"40%"} -->
 			<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:40%">
 				<!-- wp:heading {"level":5,"textColor":"base"} -->
-				<h5 class="wp-block-heading has-base-color has-text-color"><?php echo esc_html_x( 'Katrien WordPress Theme', 'Project title for "Our awards" pattern', 'silence' ); ?></h5>
+				<h5 class="wp-block-heading has-base-color has-text-color"><?php echo esc_html_x( 'Katrien WordPress Theme', 'Project title for "Our awards" pattern', 'malavi' ); ?></h5>
 				<!-- /wp:heading -->
 			</div>
 			<!-- /wp:column -->
@@ -72,7 +72,7 @@
 			<!-- wp:column {"verticalAlignment":"center","width":"40%"} -->
 			<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:40%">
 				<!-- wp:paragraph {"textColor":"base-text"} -->
-				<p class="has-base-text-color has-text-color"><?php echo esc_html_x( 'Awwwards - Honorable Mention', 'Award name for "Our awards" pattern', 'silence' ); ?></p>
+				<p class="has-base-text-color has-text-color"><?php echo esc_html_x( 'Awwwards - Honorable Mention', 'Award name for "Our awards" pattern', 'malavi' ); ?></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:column -->
@@ -80,7 +80,7 @@
 			<!-- wp:column {"verticalAlignment":"center","width":"10%"} -->
 			<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:10%">
 				<!-- wp:paragraph {"textColor":"base-text"} -->
-				<p class="has-base-text-color has-text-color"><?php echo esc_html_x( '2023', 'Year for "Our awards" pattern', 'silence' ); ?></p>
+				<p class="has-base-text-color has-text-color"><?php echo esc_html_x( '2023', 'Year for "Our awards" pattern', 'malavi' ); ?></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:column -->
@@ -104,7 +104,7 @@
 			<!-- wp:column {"verticalAlignment":"center","width":"40%"} -->
 			<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:40%">
 				<!-- wp:heading {"level":5,"textColor":"base"} -->
-				<h5 class="wp-block-heading has-base-color has-text-color"><?php echo esc_html_x( 'Neiman WordPress Theme', 'Project title for "Our awards" pattern', 'silence' ); ?></h5>
+				<h5 class="wp-block-heading has-base-color has-text-color"><?php echo esc_html_x( 'Neiman WordPress Theme', 'Project title for "Our awards" pattern', 'malavi' ); ?></h5>
 				<!-- /wp:heading -->
 			</div>
 			<!-- /wp:column -->
@@ -112,7 +112,7 @@
 			<!-- wp:column {"verticalAlignment":"center","width":"40%"} -->
 			<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:40%">
 				<!-- wp:paragraph {"textColor":"base-text"} -->
-				<p class="has-base-text-color has-text-color"><?php echo esc_html_x( 'Awwwards - Honorable Mention', 'Award name for "Our awards" pattern', 'silence' ); ?></p>
+				<p class="has-base-text-color has-text-color"><?php echo esc_html_x( 'Awwwards - Honorable Mention', 'Award name for "Our awards" pattern', 'malavi' ); ?></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:column -->
@@ -120,7 +120,7 @@
 			<!-- wp:column {"verticalAlignment":"center","width":"10%"} -->
 			<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:10%">
 				<!-- wp:paragraph {"textColor":"base-text"} -->
-				<p class="has-base-text-color has-text-color"><?php echo esc_html_x( '2023', 'Year for "Our awards" pattern', 'silence' ); ?></p>
+				<p class="has-base-text-color has-text-color"><?php echo esc_html_x( '2023', 'Year for "Our awards" pattern', 'malavi' ); ?></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:column -->
@@ -144,7 +144,7 @@
 			<!-- wp:column {"verticalAlignment":"center","width":"40%"} -->
 			<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:40%">
 				<!-- wp:heading {"level":5,"textColor":"base"} -->
-				<h5 class="wp-block-heading has-base-color has-text-color"><?php echo esc_html_x( 'Itonga WordPress Theme', 'Project title for "Our awards" pattern', 'silence' ); ?></h5>
+				<h5 class="wp-block-heading has-base-color has-text-color"><?php echo esc_html_x( 'Itonga WordPress Theme', 'Project title for "Our awards" pattern', 'malavi' ); ?></h5>
 				<!-- /wp:heading -->
 			</div>
 			<!-- /wp:column -->
@@ -152,7 +152,7 @@
 			<!-- wp:column {"verticalAlignment":"center","width":"40%"} -->
 			<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:40%">
 				<!-- wp:paragraph {"textColor":"base-text"} -->
-				<p class="has-base-text-color has-text-color"><?php echo esc_html_x( 'CSS Design Awards - Special Kudos', 'Award name for "Our awards" pattern', 'silence' ); ?></p>
+				<p class="has-base-text-color has-text-color"><?php echo esc_html_x( 'CSS Design Awards - Special Kudos', 'Award name for "Our awards" pattern', 'malavi' ); ?></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:column -->
@@ -160,7 +160,7 @@
 			<!-- wp:column {"verticalAlignment":"center","width":"10%"} -->
 			<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:10%">
 				<!-- wp:paragraph {"textColor":"base-text"} -->
-				<p class="has-base-text-color has-text-color"><?php echo esc_html_x( '2022', 'Year for "Our awards" pattern', 'silence' ); ?></p>
+				<p class="has-base-text-color has-text-color"><?php echo esc_html_x( '2022', 'Year for "Our awards" pattern', 'malavi' ); ?></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:column -->
@@ -184,7 +184,7 @@
 			<!-- wp:column {"verticalAlignment":"center","width":"40%"} -->
 			<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:40%">
 				<!-- wp:heading {"level":5,"textColor":"base"} -->
-				<h5 class="wp-block-heading has-base-color has-text-color"><?php echo esc_html_x( 'Arkona WordPress Theme', 'Project title for "Our awards" pattern', 'silence' ); ?></h5>
+				<h5 class="wp-block-heading has-base-color has-text-color"><?php echo esc_html_x( 'Arkona WordPress Theme', 'Project title for "Our awards" pattern', 'malavi' ); ?></h5>
 				<!-- /wp:heading -->
 			</div>
 			<!-- /wp:column -->
@@ -192,7 +192,7 @@
 			<!-- wp:column {"verticalAlignment":"center","width":"40%"} -->
 			<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:40%">
 				<!-- wp:paragraph {"textColor":"base-text"} -->
-				<p class="has-base-text-color has-text-color"><?php echo esc_html_x( 'CSS Design Awards - Designer Of The Year', 'Award name for "Our awards" pattern', 'silence' ); ?></p>
+				<p class="has-base-text-color has-text-color"><?php echo esc_html_x( 'CSS Design Awards - Designer Of The Year', 'Award name for "Our awards" pattern', 'malavi' ); ?></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:column -->
@@ -200,7 +200,7 @@
 			<!-- wp:column {"verticalAlignment":"center","width":"10%"} -->
 			<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:10%">
 				<!-- wp:paragraph {"textColor":"base-text"} -->
-				<p class="has-base-text-color has-text-color"><?php echo esc_html_x( '2021', 'Year for "Our awards" pattern', 'silence' ); ?></p>
+				<p class="has-base-text-color has-text-color"><?php echo esc_html_x( '2021', 'Year for "Our awards" pattern', 'malavi' ); ?></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:column -->
@@ -224,7 +224,7 @@
 			<!-- wp:column {"verticalAlignment":"center","width":"40%"} -->
 			<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:40%">
 				<!-- wp:heading {"level":5,"textColor":"base"} -->
-				<h5 class="wp-block-heading has-base-color has-text-color"><?php echo esc_html_x( 'Melina WordPress Theme', 'Project title for "Our awards" pattern', 'silence' ); ?></h5>
+				<h5 class="wp-block-heading has-base-color has-text-color"><?php echo esc_html_x( 'Melina WordPress Theme', 'Project title for "Our awards" pattern', 'malavi' ); ?></h5>
 				<!-- /wp:heading -->
 			</div>
 			<!-- /wp:column -->
@@ -232,7 +232,7 @@
 			<!-- wp:column {"verticalAlignment":"center","width":"40%"} -->
 			<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:40%">
 				<!-- wp:paragraph {"textColor":"base-text"} -->
-				<p class="has-base-text-color has-text-color"><?php echo esc_html_x( 'Awwwards - Independant Of The Year', 'Award name for "Our awards" pattern', 'silence' ); ?></p>
+				<p class="has-base-text-color has-text-color"><?php echo esc_html_x( 'Awwwards - Independant Of The Year', 'Award name for "Our awards" pattern', 'malavi' ); ?></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:column -->
@@ -240,7 +240,7 @@
 			<!-- wp:column {"verticalAlignment":"center","width":"10%"} -->
 			<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:10%">
 				<!-- wp:paragraph {"textColor":"base-text"} -->
-				<p class="has-base-text-color has-text-color"><?php echo esc_html_x( '2021', 'Year for "Our awards" pattern', 'silence' ); ?></p>
+				<p class="has-base-text-color has-text-color"><?php echo esc_html_x( '2021', 'Year for "Our awards" pattern', 'malavi' ); ?></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:column -->
@@ -264,7 +264,7 @@
 			<!-- wp:column {"verticalAlignment":"center","width":"40%"} -->
 			<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:40%">
 				<!-- wp:heading {"level":5,"textColor":"base"} -->
-				<h5 class="wp-block-heading has-base-color has-text-color"><?php echo esc_html_x( 'Catarina WordPress Theme', 'Project title for "Our awards" pattern', 'silence' ); ?></h5>
+				<h5 class="wp-block-heading has-base-color has-text-color"><?php echo esc_html_x( 'Catarina WordPress Theme', 'Project title for "Our awards" pattern', 'malavi' ); ?></h5>
 				<!-- /wp:heading -->
 			</div>
 			<!-- /wp:column -->
@@ -272,7 +272,7 @@
 			<!-- wp:column {"verticalAlignment":"center","width":"40%"} -->
 			<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:40%">
 				<!-- wp:paragraph {"textColor":"base-text"} -->
-				<p class="has-base-text-color has-text-color"><?php echo esc_html_x( 'Awwwards - Mobile Excellence', 'Award name for "Our awards" pattern', 'silence' ); ?></p>
+				<p class="has-base-text-color has-text-color"><?php echo esc_html_x( 'Awwwards - Mobile Excellence', 'Award name for "Our awards" pattern', 'malavi' ); ?></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:column -->
@@ -280,7 +280,7 @@
 			<!-- wp:column {"verticalAlignment":"center","width":"10%"} -->
 			<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:10%">
 				<!-- wp:paragraph {"textColor":"base-text"} -->
-				<p class="has-base-text-color has-text-color"><?php echo esc_html_x( '2020', 'Year for "Our awards" pattern', 'silence' ); ?></p>
+				<p class="has-base-text-color has-text-color"><?php echo esc_html_x( '2020', 'Year for "Our awards" pattern', 'malavi' ); ?></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:column -->
@@ -304,7 +304,7 @@
 			<!-- wp:column {"verticalAlignment":"center","width":"40%"} -->
 			<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:40%">
 				<!-- wp:heading {"level":5,"textColor":"base"} -->
-				<h5 class="wp-block-heading has-base-color has-text-color"><?php echo esc_html_x( 'Windmill WordPress Theme', 'Project title for "Our awards" pattern', 'silence' ); ?></h5>
+				<h5 class="wp-block-heading has-base-color has-text-color"><?php echo esc_html_x( 'Windmill WordPress Theme', 'Project title for "Our awards" pattern', 'malavi' ); ?></h5>
 				<!-- /wp:heading -->
 			</div>
 			<!-- /wp:column -->
@@ -312,7 +312,7 @@
 			<!-- wp:column {"verticalAlignment":"center","width":"40%"} -->
 			<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:40%">
 				<!-- wp:paragraph {"textColor":"base-text"} -->
-				<p class="has-base-text-color has-text-color"><?php echo esc_html_x( 'CSS Design Awards - Website Of The Day', 'Award name for "Our awards" pattern', 'silence' ); ?></p>
+				<p class="has-base-text-color has-text-color"><?php echo esc_html_x( 'CSS Design Awards - Website Of The Day', 'Award name for "Our awards" pattern', 'malavi' ); ?></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:column -->
@@ -320,7 +320,7 @@
 			<!-- wp:column {"verticalAlignment":"center","width":"10%"} -->
 			<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:10%">
 				<!-- wp:paragraph {"textColor":"base-text"} -->
-				<p class="has-base-text-color has-text-color"><?php echo esc_html_x( '2019', 'Year for "Our awards" pattern', 'silence' ); ?></p>
+				<p class="has-base-text-color has-text-color"><?php echo esc_html_x( '2019', 'Year for "Our awards" pattern', 'malavi' ); ?></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:column -->
@@ -344,7 +344,7 @@
 			<!-- wp:column {"width":"33.34%"} -->
 			<div class="wp-block-column" style="flex-basis:33.34%">
 				<!-- wp:paragraph {"textColor":"base-text"} -->
-				<p class="has-base-text-color has-text-color"><?php echo esc_html_x( 'Some of the work listed here has also been featured in some of the most renowned sources such as Muzli, Communication Arts, Codrops, TypeWolf, Creative Bloq, It’s Nice That, and more.', 'Text for "Our awards" pattern', 'silence' ); ?></p>
+				<p class="has-base-text-color has-text-color"><?php echo esc_html_x( 'Some of the work listed here has also been featured in some of the most renowned sources such as Muzli, Communication Arts, Codrops, TypeWolf, Creative Bloq, It’s Nice That, and more.', 'Text for "Our awards" pattern', 'malavi' ); ?></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:column -->

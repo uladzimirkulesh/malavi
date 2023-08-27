@@ -1,11 +1,11 @@
 <?php
 /**
- * Silence functions and definitions
+ * Malavi functions and definitions
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package Silence
- * @since Silence 1.0
+ * @package Malavi
+ * @since Malavi 1.0
  */
 
 if ( ! function_exists( 'silence_support' ) ) :
@@ -13,7 +13,7 @@ if ( ! function_exists( 'silence_support' ) ) :
 	/**
 	 * Sets up theme defaults and registers support for various WordPress features.
 	 *
-	 * @since Silence 1.0
+	 * @since Malavi 1.0
 	 *
 	 * @return void
 	 */
@@ -33,7 +33,7 @@ if ( ! function_exists( 'silence_styles' ) ) :
 	/**
 	 * Enqueue styles.
 	 *
-	 * @since Silence 1.0
+	 * @since Malavi 1.0
 	 *
 	 * @return void
 	 */
@@ -44,14 +44,14 @@ if ( ! function_exists( 'silence_styles' ) ) :
 
 		// Register main stylesheet.
 		wp_register_style(
-			'silence-style',
+			'malavi-style',
 			get_template_directory_uri() . '/style.css',
 			array(),
 			$version_string
 		);
 
 		// Enqueue main stylesheet.
-		wp_enqueue_style( 'silence-style' );
+		wp_enqueue_style( 'malavi-style' );
 
 	}
 
@@ -64,15 +64,15 @@ if ( ! function_exists( 'silence_register_pattern_categories' ) ) :
 	/**
 	 * Registers pattern categories.
 	 *
-	 * @since Silence 1.0
+	 * @since Malavi 1.0
 	 *
 	 * @return void
 	 */
 	function silence_register_pattern_categories() {
 
 		register_block_pattern_category(
-			'silence',
-			array( 'label' => esc_html__( 'Silence Theme', 'silence' ) )
+			'malavi',
+			array( 'label' => esc_html__( 'Malavi Theme', 'malavi' ) )
 		);
 
 	}

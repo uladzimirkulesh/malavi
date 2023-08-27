@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Who we are
- * Slug: silence/who-we-are
- * Categories: text, silence
+ * Slug: malavi/who-we-are
+ * Categories: text, malavi
  * Keywords: Who we are
  */
 ?>
@@ -16,7 +16,7 @@
 			<h1 class="wp-block-heading has-xxxxxxx-large-font-size"><?php
 				echo wp_kses_post(
 					/* translators: Title for "Who we are" pattern */
-					__( 'We make <br>creative things', 'silence' )
+					__( 'We make <br>creative things', 'malavi' )
 				);
 				?></h1>
 			<!-- /wp:heading -->
@@ -26,7 +26,7 @@
 		<!-- wp:column {"width":"25%"} -->
 		<div class="wp-block-column" style="flex-basis:25%">
 			<!-- wp:paragraph {"style":{"spacing":{"padding":{"top":"var:preset|spacing|30"}},"typography":{"lineHeight":"1.5"}},"textColor":"contrast-secondary-text","className":"section__small-note"} -->
-			<p class="section__small-note has-contrast-secondary-text-color has-text-color" style="padding-top:var(--wp--preset--spacing--30);line-height:1.5"><?php echo esc_html_x( 'We are obsessed with creativity — challenging what is, while defining what comes next.', 'Small text for "Who we are" pattern', 'silence' ); ?></p>
+			<p class="section__small-note has-contrast-secondary-text-color has-text-color" style="padding-top:var(--wp--preset--spacing--30);line-height:1.5"><?php echo esc_html_x( 'We are obsessed with creativity — challenging what is, while defining what comes next.', 'Small text for "Who we are" pattern', 'malavi' ); ?></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:column -->
@@ -46,7 +46,7 @@
 		<!-- wp:column {"width":"50%"} -->
 		<div class="wp-block-column" style="flex-basis:50%">
 			<!-- wp:paragraph {"textColor":"contrast","fontSize":"large"} -->
-			<p class="has-contrast-color has-text-color has-large-font-size"><?php echo esc_html_x( 'Hello there! 👋 We are an award-winning design agency with a talented team of digital creatives, product designers, developers, and problem solvers, ready to dedicate ourselves to provide a fresh perspective for the solutions you need.', 'Content for "Who we are" pattern', 'silence' ); ?></p>
+			<p class="has-contrast-color has-text-color has-large-font-size"><?php echo esc_html_x( 'Hello there! 👋 We are an award-winning design agency with a talented team of digital creatives, product designers, developers, and problem solvers, ready to dedicate ourselves to provide a fresh perspective for the solutions you need.', 'Content for "Who we are" pattern', 'malavi' ); ?></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:column -->

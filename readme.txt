@@ -1,4 +1,4 @@
-=== Silence ===
+=== Malavi ===
 
 Contributors: Uladzimir Kulesh
 Requires at least: 6.1
@@ -10,7 +10,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Silence is an easy-to-use WordPress theme inspired by simplicity. With block patterns, which allow you to create a beautiful layout in a matter of seconds, this theme’s colors and eye-catching design will let your work shine. Whether you want to build a complex or incredibly simple website, you can do it quickly and intuitively through the bundled styles or dive into creation and full customization yourself.
+Malavi is an easy-to-use WordPress theme inspired by simplicity. With block patterns, which allow you to create a beautiful layout in a matter of seconds, this theme’s colors and eye-catching design will let your work shine. Whether you want to build a complex or incredibly simple website, you can do it quickly and intuitively through the bundled styles or dive into creation and full customization yourself.
 
 == Installation ==
 
@@ -26,8 +26,8 @@ Silence is an easy-to-use WordPress theme inspired by simplicity. With block pat
 
 == Copyright ==
 
-Silence WordPress Theme, Copyright 2023 Uladzimir Kulesh.
-Silence is distributed under the terms of the GNU GPL.
+Malavi WordPress Theme, Copyright 2023 Uladzimir Kulesh.
+Malavi is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by

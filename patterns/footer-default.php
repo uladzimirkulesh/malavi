@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Default Footer
- * Slug: silence/footer-default
- * Categories: footer, silence
+ * Slug: malavi/footer-default
+ * Categories: footer, malavi
  * Block Types: core/template-part/footer
  */
 ?>
@@ -20,8 +20,8 @@
 		<p class="footer__copyright"><?php
 		printf(
 			/* translators: Copyright. */
-			esc_html__( '© 2023 %s.', 'silence' ),
-			'<a href="' . esc_url( __( 'https://uladzimirkulesh.com', 'silence' ) ) . '">Uladzimir Kulesh</a>' )
+			esc_html__( '© 2023 %s.', 'malavi' ),
+			'<a href="' . esc_url( __( 'https://uladzimirkulesh.com', 'malavi' ) ) . '">Uladzimir Kulesh</a>' )
 		?></p>
 		<!-- /wp:paragraph -->
 	</div>

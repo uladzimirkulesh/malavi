@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Contact us
- * Slug: silence/contact-us
- * Categories: text, silence
+ * Slug: malavi/contact-us
+ * Categories: text, malavi
  * Keywords: Contact us
  */
 ?>
@@ -17,7 +17,7 @@
 		<!-- wp:column -->
 		<div class="wp-block-column">
 			<!-- wp:heading {"level":6} -->
-			<h6 class="wp-block-heading"><?php echo esc_html_x( 'Contact us', 'Small title for "Contact us" pattern', 'silence' ); ?></h6>
+			<h6 class="wp-block-heading"><?php echo esc_html_x( 'Contact us', 'Small title for "Contact us" pattern', 'malavi' ); ?></h6>
 			<!-- /wp:heading -->
 		</div>
 		<!-- /wp:column -->
@@ -28,30 +28,30 @@
 			<h4 class="wp-block-heading"><?php
 				echo wp_kses_post(
 				/* translators: Title for "Contact us" pattern */
-				__( 'Let\'s create something great together. <br>Contact us and let\'s bring your vision to life.', 'silence' )
+				__( 'Let\'s create something great together. <br>Contact us and let\'s bring your vision to life.', 'malavi' )
 				);
 				?></h4>
 			<!-- /wp:heading -->
 
 			<!-- wp:heading {"level":6} -->
-			<h6 class="wp-block-heading"><?php echo esc_html_x( 'Adress', 'Small title for "Contact us" pattern', 'silence' ); ?></h6>
+			<h6 class="wp-block-heading"><?php echo esc_html_x( 'Adress', 'Small title for "Contact us" pattern', 'malavi' ); ?></h6>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}}}} -->
 			<p style="margin-top:var(--wp--preset--spacing--10)"><?php
 				echo wp_kses_post(
 				/* translators: Adress for "Contact us" pattern */
-				__( '501 Passaic Avenue, Harrison,<br>New York 07329', 'silence' )
+				__( '501 Passaic Avenue, Harrison,<br>New York 07329', 'malavi' )
 				);
 				?></p>
 			<!-- /wp:paragraph -->
 
 			<!-- wp:paragraph {"fontSize":"small"} -->
-			<p class="has-small-font-size"><a href="#" target="_blank" rel="noreferrer noopener"><?php echo esc_html_x( 'Instagram', 'Text for Instagram link for "Contact us" pattern', 'silence' ); ?></a></p>
+			<p class="has-small-font-size"><a href="#" target="_blank" rel="noreferrer noopener"><?php echo esc_html_x( 'Instagram', 'Text for Instagram link for "Contact us" pattern', 'malavi' ); ?></a></p>
 			<!-- /wp:paragraph -->
 
 			<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0"}}},"fontSize":"small"} -->
-			<p class="has-small-font-size" style="margin-top:0"><a href="#" target="_blank" rel="noreferrer noopener"><?php echo esc_html_x( 'LinkedIn', 'Text for LinkedIn link for "Contact us" pattern', 'silence' ); ?></a></p>
+			<p class="has-small-font-size" style="margin-top:0"><a href="#" target="_blank" rel="noreferrer noopener"><?php echo esc_html_x( 'LinkedIn', 'Text for LinkedIn link for "Contact us" pattern', 'malavi' ); ?></a></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:column -->
@@ -63,7 +63,7 @@
 		<!-- wp:column {"verticalAlignment":"center"} -->
 		<div class="wp-block-column is-vertically-aligned-center">
 			<!-- wp:paragraph {"className":"contact-link","fontSize":"xxxxxxx-large"} -->
-			<p class="contact-link has-xxxxxxx-large-font-size"><a href="#"><?php echo esc_html_x( 'Contact us', 'Text for "Contact us" link for "Contact us" pattern', 'silence' ); ?></a></p>
+			<p class="contact-link has-xxxxxxx-large-font-size"><a href="#"><?php echo esc_html_x( 'Contact us', 'Text for "Contact us" link for "Contact us" pattern', 'malavi' ); ?></a></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:column -->
