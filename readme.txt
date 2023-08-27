@@ -21,8 +21,8 @@ Malavi is an easy-to-use WordPress theme inspired by simplicity. With block patt
 
 == Changelog ==
 
-= 1.1 =
-* Released: August 24, 2023
+= 1.0 =
+* Released: August 27, 2023
 
 == Copyright ==
 
@@ -48,5 +48,3 @@ Source: https://necolas.github.io/normalize.css/
 Material Design icons, Copyright Google
 License: Apache license version 2.0.
 Source: https://material.io/tools/icons/
-
-Images: https://unsplash.com/
