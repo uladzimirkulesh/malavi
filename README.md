@@ -1,14 +1,4 @@
-# Malavi
-
-* Contributors: Uladzimir Kulesh
-* Requires at least: 6.1
-* Tested up to: 6.3
-* Requires PHP: 5.6
-* Stable tag: 1.0
-* License: GPLv2 or later
-* License URI: http://www.gnu.org/licenses/gpl-2.0.html
-
-## Description
+# Malavi WordPress Theme
 
 Malavi is an easy-to-use WordPress theme inspired by simplicity. With block patterns, which allow you to create a beautiful layout in a matter of seconds, this theme’s colors and eye-catching design will let your work shine. Whether you want to build a complex or incredibly simple website, you can do it quickly and intuitively through the bundled styles or dive into creation and full customization yourself.
 
@@ -41,10 +31,10 @@ GNU General Public License for more details.
 
 ## Credits
 
-* normalize.css, Copyright Nicolas Gallagher and Jonathan Neal
-* License: MIT
-* Source: https://necolas.github.io/normalize.css/
+- normalize.css, Copyright Nicolas Gallagher and Jonathan Neal
+- License: MIT
+- Source: https://necolas.github.io/normalize.css/
 
-* Material Design icons, Copyright Google
-* License: Apache license version 2.0.
-* Source: https://material.io/tools/icons/
+- Material Design icons, Copyright Google
+- License: Apache license version 2.0.
+- Source: https://material.io/tools/icons/
