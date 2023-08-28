@@ -1,12 +1,12 @@
 # Malavi
 
-Contributors: Uladzimir Kulesh
-Requires at least: 6.1
-Tested up to: 6.3
-Requires PHP: 5.6
-Stable tag: 1.0
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+* Contributors: Uladzimir Kulesh
+* Requires at least: 6.1
+* Tested up to: 6.3
+* Requires PHP: 5.6
+* Stable tag: 1.0
+* License: GPLv2 or later
+* License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 ## Description
 
@@ -41,10 +41,10 @@ GNU General Public License for more details.
 
 ## Credits
 
-normalize.css, Copyright Nicolas Gallagher and Jonathan Neal
-License: MIT
-Source: https://necolas.github.io/normalize.css/
+* normalize.css, Copyright Nicolas Gallagher and Jonathan Neal
+* License: MIT
+* Source: https://necolas.github.io/normalize.css/
 
-Material Design icons, Copyright Google
-License: Apache license version 2.0.
-Source: https://material.io/tools/icons/
+* Material Design icons, Copyright Google
+* License: Apache license version 2.0.
+* Source: https://material.io/tools/icons/
