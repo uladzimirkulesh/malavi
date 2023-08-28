@@ -32,9 +32,9 @@ GNU General Public License for more details.
 ## Credits
 
 1. **normalize.css**, Copyright Nicolas Gallagher and Jonathan Neal
-- License: MIT
-- Source: https://necolas.github.io/normalize.css/
+   * License: MIT
+   * Source: https://necolas.github.io/normalize.css/
 
 2. **Material Design icons**, Copyright Google
-- License: Apache license version 2.0.
-- Source: https://material.io/tools/icons/
+   * License: Apache license version 2.0.
+   * Source: https://material.io/tools/icons/
