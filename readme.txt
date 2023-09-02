@@ -4,7 +4,7 @@ Contributors: Uladzimir Kulesh
 Requires at least: 6.1
 Tested up to: 6.3
 Requires PHP: 5.6
-Stable tag: 1.0
+Stable tag: 1.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -21,7 +21,12 @@ Malavi is an easy-to-use WordPress theme inspired by simplicity. With block patt
 
 == Changelog ==
 
-= 1.0 =
+= 1.1.1 =
+* Delete Theme URI and Author URI
+* Fix copyright
+* Fix prefixes
+
+= 1.1.0 =
 * Released: August 27, 2023
 
 == Copyright ==

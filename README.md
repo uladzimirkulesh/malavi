@@ -11,7 +11,12 @@ Malavi is an easy-to-use WordPress theme inspired by simplicity. With block patt
 
 ## Changelog
 
-**1.0.0**
+**1.1.1**
+* Delete Theme URI and Author URI
+* Fix copyright
+* Fix prefixes
+
+**1.1.0**
 * Released: August 27, 2023
 
 ## Copyright

@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Malavi\n"
 "Report-Msgid-Bugs-To: https://uladzimirkulesh.com\n"
-"POT-Creation-Date: 2023-08-27 17:01+0000\n"
+"POT-Creation-Date: 2023-09-02 17:01+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Uladzimir Kulesh <u.a.kulesh@gmail.com>\n"
 "Language-Team: Uladzimir Kulesh <u.a.kulesh@gmail.com>\n"
@@ -252,13 +252,8 @@ msgstr ""
 msgid "Home Page"
 msgstr ""
 
-#. Author URI of the theme
 #: patterns/footer-default.php:24
 msgid "https://uladzimirkulesh.com"
-msgstr ""
-
-#. URI of the theme
-msgid "https://uladzimirkulesh.com/malavi"
 msgstr ""
 
 #: patterns/our-goals.php:88
@@ -858,5 +853,5 @@ msgstr ""
 #. Copyright.
 #: patterns/footer-default.php:23
 #, php-format
-msgid "© 2023 %s."
+msgid "© 2023 all rights reserved. Theme by %s."
 msgstr ""
