@@ -14,7 +14,7 @@
 		<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 		<div class="wp-block-group">
 			<!-- wp:post-terms {"term":"category"} /-->
-			<!-- wp:post-date {"displayType":"modified"} /-->
+			<!-- wp:post-date /-->
 		</div>
 		<!-- /wp:group -->
 

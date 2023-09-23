@@ -1,11 +1,13 @@
 /*
 Theme Name: Malavi
+Theme URI: https://uladzimirkulesh.com/malavi
 Author: Uladzimir Kulesh
+Author URI: https://uladzimirkulesh.com
 Description: Malavi is an easy-to-use WordPress theme inspired by simplicity. With block patterns, which allow you to create a beautiful layout in a matter of seconds, this theme’s colors and eye-catching design will let your work shine. Whether you want to build a complex or incredibly simple website, you can do it quickly and intuitively through the bundled styles or dive into creation and full customization yourself.
 Requires at least: 6.1
 Tested up to: 6.3
 Requires PHP: 5.6
-Version: 1.1.1
+Version: 1.1.2
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 Text Domain: malavi
@@ -18,13 +20,13 @@ Normalize Styles
 -------------------------------------------------------*/
 
 /*
-Apply generic border-box to all elements.
-See:
-https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+1. Apply generic border-box to all elements. See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+2. Prevent adjustments of font size after orientation changes in iOS.
 */
 
 html {
-	box-sizing: border-box;
+	box-sizing: border-box; /* 1 */
+	-webkit-text-size-adjust: 100%; /* 2 */
 }
 
 /*
@@ -35,22 +37,6 @@ Relax the definition a bit, to allow components to override it manually.
 *::before,
 *::after {
 	box-sizing: inherit;
-}
-
-/*
-Prevent adjustments of font size after orientation changes in iOS.
-*/
-
-html {
-	-webkit-text-size-adjust: 100%;
-}
-
-/*
-Remove the margin in all browsers.
-*/
-
-body {
-	margin: 0;
 }
 
 /*
@@ -89,7 +75,7 @@ code,
 kbd,
 samp,
 pre {
-	font-family: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
+	font-family: var(--wp--preset--font-family--monospace-font); /* 1 */
 	font-size: 1em; /* 2 */
 }
 
@@ -143,7 +129,7 @@ select,
 textarea {
 	font-family: inherit; /* 1 */
 	font-size: 100%; /* 1 */
-	line-height: 1.15; /* 1 */
+	line-height: var(--wp--custom--line-height); /* 1 */
 	margin: 0; /* 2 */
 }
 
@@ -293,6 +279,14 @@ a,
 Forms
 -------------------------------------------------------*/
 
+::-moz-placeholder {
+	opacity: 1;
+}
+
+/*
+Form
+*/
+
 form > * {
 	margin-top: var(--wp--custom--spacing--base);
 	margin-bottom: var(--wp--custom--spacing--base);
@@ -304,10 +298,6 @@ form > :first-child {
 
 form > :last-child {
 	margin-bottom: 0;
-}
-
-::-moz-placeholder {
-	opacity: 1;
 }
 
 /*
@@ -327,12 +317,17 @@ label {
 Fieldset
 */
 
-fieldset:not(:first-child) {
+fieldset {
 	margin-top: var(--wp--custom--spacing--base);
+	margin-bottom: var(--wp--custom--spacing--base);
 }
 
-fieldset:not(:last-child) {
-	margin-bottom: var(--wp--custom--spacing--base);
+fieldset:first-child {
+	margin-top: 0;
+}
+
+fieldset:last-child {
+	margin-bottom: 0;
 }
 
 /*
@@ -355,11 +350,11 @@ input[type="datetime"],
 input[type="datetime-local"],
 input[type="color"],
 textarea {
-	-webkit-appearance: none;
 	appearance: none;
-	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 	outline: none;
+	-webkit-appearance: none;
+	-webkit-backface-visibility: hidden;
 
 	display: block;
 	width: 100%;
@@ -378,10 +373,10 @@ textarea {
 	border-width: 1px;
 	border-style: solid;
 	border-color: transparent;
-	-webkit-border-radius: 0.5em;
 	border-radius: 0.5em;
-	-webkit-box-shadow: none;
 	box-shadow: none;
+	-webkit-border-radius: 0.5em;
+	-webkit-box-shadow: none;
 
 	transition: all 0.25s ease-in-out;
 }
@@ -514,8 +509,6 @@ Radio, checkbox
 input[type="radio"],
 input[type="checkbox"] {
 	position: relative;
-	top: 0.085em;
-	margin-right: 0.25em;
 	border-width: 1px !important;
 }
 
@@ -523,6 +516,7 @@ input[type="radio"]+label,
 input[type="checkbox"]+label {
 	display: inline;
 	margin-bottom: 0;
+	margin-left: 0.25em;
 	font-weight: var(--wp--custom--font-weight--text);
 }
 
@@ -773,6 +767,23 @@ body .is-layout-constrained > * + h6 {
 	margin-block-start: calc(var(--wp--custom--spacing--base) * 2);
 }
 
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child,
+h6:first-child {
+	margin-block-start: 0;
+}
+
+/*
+Removing the "more" tag to remove space before it
+*/
+
+span[id^="more"] {
+	display: none;
+}
+
 /*-------------------------------------------------------
 Clearings
 -------------------------------------------------------*/
@@ -793,7 +804,11 @@ Clearings
 Header Navigation
 -------------------------------------------------------*/
 
-.wp-block-navigation .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation__container > .wp-block-navigation-item.has-child:hover > a {
+/*
+Adding a color to a root menu item when hovering over a child menu item
+*/
+
+.wp-block-navigation .has-child:hover > .wp-block-navigation-item__content {
 	color: var(--wp--preset--color--contrast-secondary-text);
 }
 
@@ -835,6 +850,7 @@ Arrow
 */
 
 .wp-block-navigation .has-child .wp-block-navigation__submenu-container .wp-block-navigation__submenu-icon {
+	margin-left: 0;
 	margin-right: 0.75rem;
 }
 
@@ -921,9 +937,9 @@ Loop
 	}
 }
 
-/*
+/*-------------------------------------------------------
 Loop item
-*/
+-------------------------------------------------------*/
 
 .wp-block-query .wp-block-post-featured-image {
 	padding-top: 56%;
@@ -935,7 +951,9 @@ Loop item
 	height: 100%;
 }
 
-.wp-block-query .wp-block-post-featured-image img {
+.wp-block-query .wp-block-post-featured-image img,
+.wp-block-query .wp-block-post-featured-image .components-placeholder,
+.wp-block-query .wp-block-post-featured-image .wp-block-post-featured-image__placeholder {
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -946,9 +964,15 @@ Loop item
 	transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
 }
 
-.wp-block-query .wp-block-post-featured-image:hover img {
+.wp-block-query .wp-block-post-featured-image a:hover img,
+.wp-block-query .wp-block-post-featured-image a:focus img,
+.wp-block-query .wp-block-post-featured-image a:active img {
 	transform: scale(1.05);
 }
+
+/*
+Loop item post title
+*/
 
 .wp-block-query .wp-block-post-title {
 	max-width: max(480px, 75%);
@@ -970,8 +994,6 @@ Editor post title
 .wp-block.wp-block-post-title.editor-post-title {
 	max-width: 100%;
 	margin-bottom: var(--wp--preset--spacing--40);
-	margin-left: var(--wp--style--root--padding-right) !important;
-	margin-right: var(--wp--style--root--padding-right) !important;
 	padding-bottom: var(--wp--preset--spacing--40);
 	border-bottom: 1px solid var(--wp--preset--color--contrast-borders);
 }
@@ -1038,7 +1060,6 @@ Comment date
 .wp-block-comment-date a:active {
 	text-decoration-color: var(--wp--preset--color--contrast-text-underline) !important;
 }
-
 
 /*
 Comment edit link
