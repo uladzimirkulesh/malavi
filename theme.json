@@ -657,23 +657,6 @@
 					}
 				}
 			},
-			"core/query": {
-				"elements": {
-					"h2": {
-						"typography": {
-							"fontSize": "var(--wp--preset--font-size--x-large)",
-							"lineHeight": "1.25"
-						},
-						"spacing": {
-							"margin": {
-								"top": "var(--wp--preset--spacing--10)",
-								"bottom": "0"
-							}
-						}
-					}
-				},
-				"css": "& .wp-block-post-featured-image {\n\tmargin-bottom: var(--wp--preset--spacing--20);\n\t}"
-			},
 			"core/query-pagination": {
 				"color": {
 					"text": "var(--wp--preset--color--contrast-secondary-text)"
