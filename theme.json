@@ -706,7 +706,9 @@
 			},
 			"core/separator": {
 				"border": {
-					"width": "0 0 1px 0 !important",
+					"top": {
+						"width": "1px"
+					},
 					"color": "transparent !important"
 				},
 				"color": {
