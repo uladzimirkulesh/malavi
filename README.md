@@ -11,6 +11,9 @@ Malavi is an easy-to-use WordPress theme inspired by simplicity. With block patt
 
 ## Changelog
 
+**1.2.2 - June 11, 2026**
+* CHECKED: Compatibility with WordPress 7.0.
+
 **1.2.1**
 * Fix wp-block-separator.
 

@@ -21,7 +21,7 @@
 		printf(
 			/* translators: Copyright. */
 			esc_html__( '© 2023 all rights reserved. Theme by %s.', 'malavi' ),
-			'<a href="' . esc_url( __( 'https://uladzimirkulesh.com', 'malavi' ) ) . '">Uladzimir Kulesh</a>' )
+			'<a href="' . esc_url( __( 'https://mroya.eu/', 'malavi' ) ) . '">Uladzimir Kulesh</a>' )
 		?></p>
 		<!-- /wp:paragraph -->
 	</div>

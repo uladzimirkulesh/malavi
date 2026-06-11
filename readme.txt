@@ -2,9 +2,9 @@
 
 Contributors: Uladzimir Kulesh
 Requires at least: 6.1
-Tested up to: 6.5
+Tested up to: 7.0
 Requires PHP: 5.6
-Stable tag: 1.2.1
+Stable tag: 1.2.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -20,6 +20,9 @@ Malavi is an easy-to-use WordPress theme inspired by simplicity. With block patt
 4. Navigate to "Appearance > Editor" in your admin panel and customize to taste.
 
 == Changelog ==
+
+= 1.2.2 - June 11, 2026 =
+* CHECKED: Compatibility with WordPress 7.0.
 
 = 1.2.1 =
 * Fix wp-block-separator.
